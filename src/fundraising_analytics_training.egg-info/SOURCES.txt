@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/fundraising_analytics/__init__.py
+src/fundraising_analytics/config.py
+src/fundraising_analytics/generate_data.py
+src/fundraising_analytics/load_data.py
+src/fundraising_analytics/metrics.py
+src/fundraising_analytics/setup_check.py
+src/fundraising_analytics/validate_data.py
+src/fundraising_analytics_training.egg-info/PKG-INFO
+src/fundraising_analytics_training.egg-info/SOURCES.txt
+src/fundraising_analytics_training.egg-info/dependency_links.txt
+src/fundraising_analytics_training.egg-info/top_level.txt
+tests/test_data_contracts.py
+tests/test_documentation.py
+tests/test_generation.py
+tests/test_metrics.py

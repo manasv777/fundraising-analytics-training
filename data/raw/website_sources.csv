@@ -1,0 +1,2475 @@
+gift_id,source_response_raw,source_category_clean
+G0000003,Our magazine,Magazine
+G0000019,Magazine,Magazine
+G0000021,Friend,Friend or family
+G0000023,Google,Search
+G0000024,Other,Other
+G0000025,,Missing
+G0000026,Magazine,Magazine
+G0000030,Event,Event
+G0000032,Our magazine,Magazine
+G0000035,Friend,Friend or family
+G0000040,Google,Search
+G0000041,Facebook,Social media
+G0000046,Google,Search
+G0000048,Friend,Friend or family
+G0000055,friend or family,Friend or family
+G0000058,Friend,Friend or family
+G0000060,Facebook,Social media
+G0000073,friend or family,Friend or family
+G0000078,,Missing
+G0000088,friend or family,Friend or family
+G0000093,Google,Search
+G0000098,friend or family,Friend or family
+G0000100,google search,Search
+G0000101,Facebook,Social media
+G0000109,Google,Search
+G0000112,Facebook,Social media
+G0000114,Google,Search
+G0000123,Google,Search
+G0000126,Magazine,Magazine
+G0000135,Friend,Friend or family
+G0000139,Other,Other
+G0000143,Google,Search
+G0000144,Our magazine,Magazine
+G0000145,Google,Search
+G0000148,,Missing
+G0000159,Social media,Social media
+G0000160,,Missing
+G0000161,Friend,Friend or family
+G0000163,friend or family,Friend or family
+G0000165,Magazine,Magazine
+G0000171,Magazine,Magazine
+G0000172,Friend,Friend or family
+G0000180,,Missing
+G0000183,Magazine,Magazine
+G0000189,Facebook,Social media
+G0000190,google search,Search
+G0000192,Other,Other
+G0000195,Other,Other
+G0000198,Facebook,Social media
+G0000202,Other,Other
+G0000203,google search,Search
+G0000208,Facebook,Social media
+G0000210,friend or family,Friend or family
+G0000221,friend or family,Friend or family
+G0000222,Magazine,Magazine
+G0000226,Google,Search
+G0000229,friend or family,Friend or family
+G0000235,Google,Search
+G0000241,Other,Other
+G0000244,Event,Event
+G0000246,Our magazine,Magazine
+G0000248,Social media,Social media
+G0000251,Facebook,Social media
+G0000254,Google,Search
+G0000256,Our magazine,Magazine
+G0000257,google search,Search
+G0000258,Social media,Social media
+G0000263,Friend,Friend or family
+G0000270,Event,Event
+G0000273,Event,Event
+G0000277,Event,Event
+G0000278,Social media,Social media
+G0000280,Friend,Friend or family
+G0000282,Google,Search
+G0000284,Our magazine,Magazine
+G0000285,Event,Event
+G0000288,Friend,Friend or family
+G0000295,Friend,Friend or family
+G0000297,google search,Search
+G0000298,Magazine,Magazine
+G0000304,Other,Other
+G0000311,friend or family,Friend or family
+G0000312,Friend,Friend or family
+G0000313,Google,Search
+G0000314,Our magazine,Magazine
+G0000315,Our magazine,Magazine
+G0000316,friend or family,Friend or family
+G0000320,Google,Search
+G0000323,friend or family,Friend or family
+G0000328,Event,Event
+G0000332,google search,Search
+G0000334,Facebook,Social media
+G0000335,Magazine,Magazine
+G0000341,Google,Search
+G0000342,Other,Other
+G0000351,Google,Search
+G0000352,Google,Search
+G0000362,Google,Search
+G0000367,,Missing
+G0000369,Google,Search
+G0000375,google search,Search
+G0000376,friend or family,Friend or family
+G0000379,Friend,Friend or family
+G0000381,Magazine,Magazine
+G0000383,Google,Search
+G0000391,Other,Other
+G0000392,Event,Event
+G0000403,Social media,Social media
+G0000405,Magazine,Magazine
+G0000406,friend or family,Friend or family
+G0000408,Facebook,Social media
+G0000409,friend or family,Friend or family
+G0000410,Facebook,Social media
+G0000411,Friend,Friend or family
+G0000418,Other,Other
+G0000421,Our magazine,Magazine
+G0000422,Friend,Friend or family
+G0000424,,Missing
+G0000425,friend or family,Friend or family
+G0000426,Other,Other
+G0000428,Social media,Social media
+G0000440,Our magazine,Magazine
+G0000445,google search,Search
+G0000446,Social media,Social media
+G0000450,Facebook,Social media
+G0000454,Friend,Friend or family
+G0000455,,Missing
+G0000457,Our magazine,Magazine
+G0000460,Other,Other
+G0000466,Our magazine,Magazine
+G0000468,Event,Event
+G0000480,Magazine,Magazine
+G0000482,Facebook,Social media
+G0000483,Other,Other
+G0000484,Facebook,Social media
+G0000485,Social media,Social media
+G0000487,Facebook,Social media
+G0000494,Social media,Social media
+G0000497,google search,Search
+G0000503,Other,Other
+G0000505,Social media,Social media
+G0000517,friend or family,Friend or family
+G0000526,Event,Event
+G0000532,friend or family,Friend or family
+G0000533,,Missing
+G0000534,Google,Search
+G0000535,Social media,Social media
+G0000537,Other,Other
+G0000540,Google,Search
+G0000544,,Missing
+G0000558,Other,Other
+G0000561,Social media,Social media
+G0000562,Event,Event
+G0000564,Other,Other
+G0000566,Event,Event
+G0000574,Our magazine,Magazine
+G0000579,,Missing
+G0000581,Other,Other
+G0000582,Google,Search
+G0000586,Magazine,Magazine
+G0000587,google search,Search
+G0000590,Event,Event
+G0000593,Social media,Social media
+G0000595,Google,Search
+G0000598,Event,Event
+G0000601,Google,Search
+G0000602,Friend,Friend or family
+G0000605,Social media,Social media
+G0000610,Friend,Friend or family
+G0000612,Magazine,Magazine
+G0000613,Google,Search
+G0000614,Our magazine,Magazine
+G0000617,Google,Search
+G0000621,google search,Search
+G0000624,Our magazine,Magazine
+G0000625,Magazine,Magazine
+G0000626,Google,Search
+G0000630,google search,Search
+G0000633,friend or family,Friend or family
+G0000635,Magazine,Magazine
+G0000636,Google,Search
+G0000638,Our magazine,Magazine
+G0000647,Magazine,Magazine
+G0000650,Google,Search
+G0000651,Magazine,Magazine
+G0000654,Google,Search
+G0000661,Social media,Social media
+G0000662,Google,Search
+G0000663,Other,Other
+G0000664,friend or family,Friend or family
+G0000665,Google,Search
+G0000666,google search,Search
+G0000674,Social media,Social media
+G0000681,Event,Event
+G0000682,Google,Search
+G0000685,Google,Search
+G0000689,friend or family,Friend or family
+G0000691,Social media,Social media
+G0000698,Magazine,Magazine
+G0000703,Social media,Social media
+G0000706,Google,Search
+G0000708,Other,Other
+G0000711,Google,Search
+G0000714,google search,Search
+G0000715,Friend,Friend or family
+G0000717,Event,Event
+G0000718,Our magazine,Magazine
+G0000725,Other,Other
+G0000731,Facebook,Social media
+G0000735,google search,Search
+G0000737,Social media,Social media
+G0000742,Facebook,Social media
+G0000747,friend or family,Friend or family
+G0000750,google search,Search
+G0000756,google search,Search
+G0000759,Social media,Social media
+G0000761,Friend,Friend or family
+G0000763,Facebook,Social media
+G0000769,Facebook,Social media
+G0000773,,Missing
+G0000776,Google,Search
+G0000779,Google,Search
+G0000785,Social media,Social media
+G0000792,friend or family,Friend or family
+G0000794,Social media,Social media
+G0000809,Friend,Friend or family
+G0000817,Google,Search
+G0000819,Other,Other
+G0000822,Other,Other
+G0000826,Our magazine,Magazine
+G0000829,Our magazine,Magazine
+G0000831,google search,Search
+G0000832,Other,Other
+G0000834,Social media,Social media
+G0000841,,Missing
+G0000844,Magazine,Magazine
+G0000852,google search,Search
+G0000853,,Missing
+G0000855,Event,Event
+G0000861,Google,Search
+G0000863,Google,Search
+G0000864,Magazine,Magazine
+G0000865,Google,Search
+G0000867,Google,Search
+G0000869,Magazine,Magazine
+G0000871,friend or family,Friend or family
+G0000872,Other,Other
+G0000873,Our magazine,Magazine
+G0000880,Google,Search
+G0000884,,Missing
+G0000886,Friend,Friend or family
+G0000888,Event,Event
+G0000890,Magazine,Magazine
+G0000891,google search,Search
+G0000892,Magazine,Magazine
+G0000894,Magazine,Magazine
+G0000895,Google,Search
+G0000896,Social media,Social media
+G0000899,Social media,Social media
+G0000902,Magazine,Magazine
+G0000903,Google,Search
+G0000907,friend or family,Friend or family
+G0000914,Social media,Social media
+G0000916,Facebook,Social media
+G0000918,Social media,Social media
+G0000919,Our magazine,Magazine
+G0000920,google search,Search
+G0000924,,Missing
+G0000932,Our magazine,Magazine
+G0000935,Event,Event
+G0000944,Our magazine,Magazine
+G0000946,Our magazine,Magazine
+G0000949,Friend,Friend or family
+G0000952,Friend,Friend or family
+G0000954,Magazine,Magazine
+G0000957,friend or family,Friend or family
+G0000958,Google,Search
+G0000966,Facebook,Social media
+G0000968,Other,Other
+G0000969,Magazine,Magazine
+G0000971,,Missing
+G0000973,Google,Search
+G0000974,Other,Other
+G0000977,Google,Search
+G0000985,google search,Search
+G0000988,google search,Search
+G0000990,Our magazine,Magazine
+G0000992,Magazine,Magazine
+G0000995,Magazine,Magazine
+G0000997,Google,Search
+G0001001,Friend,Friend or family
+G0001004,Our magazine,Magazine
+G0001010,Google,Search
+G0001012,Other,Other
+G0001015,Magazine,Magazine
+G0001017,,Missing
+G0001018,Magazine,Magazine
+G0001020,Friend,Friend or family
+G0001023,Magazine,Magazine
+G0001024,Social media,Social media
+G0001026,Other,Other
+G0001031,Google,Search
+G0001032,Google,Search
+G0001033,Our magazine,Magazine
+G0001034,friend or family,Friend or family
+G0001036,Google,Search
+G0001039,Friend,Friend or family
+G0001044,Social media,Social media
+G0001046,Friend,Friend or family
+G0001047,,Missing
+G0001052,google search,Search
+G0001055,Other,Other
+G0001059,Other,Other
+G0001062,Friend,Friend or family
+G0001064,Other,Other
+G0001065,Google,Search
+G0001072,Social media,Social media
+G0001074,Social media,Social media
+G0001079,Friend,Friend or family
+G0001081,google search,Search
+G0001082,Google,Search
+G0001086,,Missing
+G0001094,Social media,Social media
+G0001105,Google,Search
+G0001108,google search,Search
+G0001113,Google,Search
+G0001118,Facebook,Social media
+G0001121,Magazine,Magazine
+G0001124,google search,Search
+G0001125,Event,Event
+G0001129,,Missing
+G0001131,Our magazine,Magazine
+G0001135,Magazine,Magazine
+G0001136,Facebook,Social media
+G0001140,Event,Event
+G0001146,Other,Other
+G0001154,Event,Event
+G0001160,Magazine,Magazine
+G0001161,Magazine,Magazine
+G0001168,Other,Other
+G0001170,Event,Event
+G0001175,,Missing
+G0001177,friend or family,Friend or family
+G0001182,Google,Search
+G0001183,,Missing
+G0001188,Friend,Friend or family
+G0001191,Event,Event
+G0001195,Friend,Friend or family
+G0001199,Other,Other
+G0001206,Magazine,Magazine
+G0001210,Google,Search
+G0001219,Google,Search
+G0001233,Other,Other
+G0001239,Facebook,Social media
+G0001242,Other,Other
+G0001243,Magazine,Magazine
+G0001251,Other,Other
+G0001252,Our magazine,Magazine
+G0001253,Magazine,Magazine
+G0001254,Our magazine,Magazine
+G0001258,Social media,Social media
+G0001261,Social media,Social media
+G0001262,Social media,Social media
+G0001264,Friend,Friend or family
+G0001265,Friend,Friend or family
+G0001266,Facebook,Social media
+G0001271,Event,Event
+G0001273,Google,Search
+G0001275,google search,Search
+G0001276,,Missing
+G0001280,google search,Search
+G0001281,Friend,Friend or family
+G0001284,Other,Other
+G0001286,Social media,Social media
+G0001289,google search,Search
+G0001290,Event,Event
+G0001294,Event,Event
+G0001295,Social media,Social media
+G0001297,Event,Event
+G0001301,Google,Search
+G0001309,friend or family,Friend or family
+G0001311,Other,Other
+G0001329,Our magazine,Magazine
+G0001337,Google,Search
+G0001343,Magazine,Magazine
+G0001345,google search,Search
+G0001349,Our magazine,Magazine
+G0001351,Social media,Social media
+G0001361,friend or family,Friend or family
+G0001364,Facebook,Social media
+G0001365,Social media,Social media
+G0001366,Facebook,Social media
+G0001370,,Missing
+G0001372,Social media,Social media
+G0001374,google search,Search
+G0001376,google search,Search
+G0001377,Event,Event
+G0001378,Google,Search
+G0001386,Google,Search
+G0001387,Google,Search
+G0001389,Other,Other
+G0001394,Other,Other
+G0001407,Other,Other
+G0001408,Our magazine,Magazine
+G0001410,Google,Search
+G0001411,Our magazine,Magazine
+G0001414,Google,Search
+G0001417,Social media,Social media
+G0001418,Other,Other
+G0001422,Other,Other
+G0001424,,Missing
+G0001430,Event,Event
+G0001435,Social media,Social media
+G0001443,Google,Search
+G0001450,Friend,Friend or family
+G0001455,friend or family,Friend or family
+G0001458,Other,Other
+G0001460,Other,Other
+G0001461,,Missing
+G0001463,Social media,Social media
+G0001466,,Missing
+G0001469,Magazine,Magazine
+G0001481,Google,Search
+G0001486,Social media,Social media
+G0001489,Facebook,Social media
+G0001490,Event,Event
+G0001501,Social media,Social media
+G0001502,Magazine,Magazine
+G0001504,Our magazine,Magazine
+G0001508,Event,Event
+G0001513,Google,Search
+G0001519,Friend,Friend or family
+G0001530,google search,Search
+G0001534,,Missing
+G0001539,Friend,Friend or family
+G0001545,Magazine,Magazine
+G0001547,,Missing
+G0001548,Social media,Social media
+G0001551,google search,Search
+G0001552,Our magazine,Magazine
+G0001553,Social media,Social media
+G0001558,google search,Search
+G0001561,Social media,Social media
+G0001565,Magazine,Magazine
+G0001566,Friend,Friend or family
+G0001572,Our magazine,Magazine
+G0001584,Facebook,Social media
+G0001585,Event,Event
+G0001586,Other,Other
+G0001588,Facebook,Social media
+G0001589,Friend,Friend or family
+G0001590,,Missing
+G0001600,,Missing
+G0001609,Social media,Social media
+G0001624,Magazine,Magazine
+G0001627,google search,Search
+G0001629,Event,Event
+G0001638,Event,Event
+G0001640,Friend,Friend or family
+G0001644,Google,Search
+G0001660,Friend,Friend or family
+G0001665,Friend,Friend or family
+G0001669,Google,Search
+G0001670,Magazine,Magazine
+G0001674,Magazine,Magazine
+G0001678,,Missing
+G0001679,Magazine,Magazine
+G0001685,Magazine,Magazine
+G0001693,Google,Search
+G0001697,Google,Search
+G0001698,Social media,Social media
+G0001713,Friend,Friend or family
+G0001716,Google,Search
+G0001719,Facebook,Social media
+G0001721,google search,Search
+G0001730,Friend,Friend or family
+G0001736,Our magazine,Magazine
+G0001737,Our magazine,Magazine
+G0001743,google search,Search
+G0001750,google search,Search
+G0001752,Facebook,Social media
+G0001754,google search,Search
+G0001758,Facebook,Social media
+G0001760,friend or family,Friend or family
+G0001764,Our magazine,Magazine
+G0001771,Magazine,Magazine
+G0001773,google search,Search
+G0001774,Friend,Friend or family
+G0001778,Facebook,Social media
+G0001779,Event,Event
+G0001780,Social media,Social media
+G0001785,Event,Event
+G0001799,Our magazine,Magazine
+G0001807,Social media,Social media
+G0001811,Google,Search
+G0001813,friend or family,Friend or family
+G0001816,Magazine,Magazine
+G0001818,Our magazine,Magazine
+G0001821,Event,Event
+G0001826,google search,Search
+G0001827,Google,Search
+G0001832,Google,Search
+G0001836,Other,Other
+G0001837,Other,Other
+G0001838,google search,Search
+G0001842,Our magazine,Magazine
+G0001845,Facebook,Social media
+G0001849,Facebook,Social media
+G0001851,Event,Event
+G0001852,Google,Search
+G0001855,Google,Search
+G0001856,friend or family,Friend or family
+G0001858,Google,Search
+G0001862,google search,Search
+G0001863,Magazine,Magazine
+G0001867,Friend,Friend or family
+G0001868,Google,Search
+G0001874,Social media,Social media
+G0001875,Facebook,Social media
+G0001876,Google,Search
+G0001877,Other,Other
+G0001879,Social media,Social media
+G0001880,Google,Search
+G0001882,Google,Search
+G0001884,google search,Search
+G0001889,google search,Search
+G0001891,Our magazine,Magazine
+G0001892,Other,Other
+G0001893,google search,Search
+G0001896,Google,Search
+G0001906,Other,Other
+G0001912,,Missing
+G0001915,Google,Search
+G0001917,Friend,Friend or family
+G0001926,google search,Search
+G0001932,Google,Search
+G0001934,Magazine,Magazine
+G0001937,Magazine,Magazine
+G0001941,Social media,Social media
+G0001943,Magazine,Magazine
+G0001951,Magazine,Magazine
+G0001958,Magazine,Magazine
+G0001961,Facebook,Social media
+G0001963,Social media,Social media
+G0001966,Magazine,Magazine
+G0001968,google search,Search
+G0001971,Friend,Friend or family
+G0001972,Google,Search
+G0001975,google search,Search
+G0001978,Magazine,Magazine
+G0001981,google search,Search
+G0001984,Google,Search
+G0001985,Our magazine,Magazine
+G0001991,Facebook,Social media
+G0001992,,Missing
+G0001994,Magazine,Magazine
+G0001997,Our magazine,Magazine
+G0001999,Social media,Social media
+G0002000,Google,Search
+G0002003,Event,Event
+G0002004,google search,Search
+G0002005,Our magazine,Magazine
+G0002007,friend or family,Friend or family
+G0002008,friend or family,Friend or family
+G0002011,Our magazine,Magazine
+G0002015,google search,Search
+G0002017,friend or family,Friend or family
+G0002018,Event,Event
+G0002025,friend or family,Friend or family
+G0002045,,Missing
+G0002052,Our magazine,Magazine
+G0002053,Event,Event
+G0002060,Social media,Social media
+G0002067,Magazine,Magazine
+G0002070,Friend,Friend or family
+G0002072,Other,Other
+G0002076,Magazine,Magazine
+G0002077,google search,Search
+G0002089,google search,Search
+G0002090,Event,Event
+G0002091,Google,Search
+G0002096,Social media,Social media
+G0002097,Facebook,Social media
+G0002098,Event,Event
+G0002100,google search,Search
+G0002101,friend or family,Friend or family
+G0002105,Social media,Social media
+G0002109,Facebook,Social media
+G0002110,Magazine,Magazine
+G0002111,Our magazine,Magazine
+G0002113,friend or family,Friend or family
+G0002120,Our magazine,Magazine
+G0002122,Other,Other
+G0002123,Facebook,Social media
+G0002127,Friend,Friend or family
+G0002128,google search,Search
+G0002130,Other,Other
+G0002141,Magazine,Magazine
+G0002144,Our magazine,Magazine
+G0002156,google search,Search
+G0002159,Other,Other
+G0002164,Friend,Friend or family
+G0002169,Event,Event
+G0002174,Our magazine,Magazine
+G0002175,Facebook,Social media
+G0002178,Other,Other
+G0002182,Event,Event
+G0002184,,Missing
+G0002188,Magazine,Magazine
+G0002189,Magazine,Magazine
+G0002196,google search,Search
+G0002200,Magazine,Magazine
+G0002202,Magazine,Magazine
+G0002204,Magazine,Magazine
+G0002206,friend or family,Friend or family
+G0002207,Event,Event
+G0002212,Google,Search
+G0002214,Other,Other
+G0002215,Our magazine,Magazine
+G0002219,Friend,Friend or family
+G0002221,Google,Search
+G0002222,Event,Event
+G0002223,Other,Other
+G0002225,Social media,Social media
+G0002228,Social media,Social media
+G0002234,Friend,Friend or family
+G0002236,Our magazine,Magazine
+G0002237,Our magazine,Magazine
+G0002239,friend or family,Friend or family
+G0002240,friend or family,Friend or family
+G0002248,google search,Search
+G0002250,Other,Other
+G0002252,Google,Search
+G0002256,Google,Search
+G0002263,,Missing
+G0002266,,Missing
+G0002272,Magazine,Magazine
+G0002273,Event,Event
+G0002281,Our magazine,Magazine
+G0002290,Other,Other
+G0002296,Google,Search
+G0002300,Google,Search
+G0002308,Google,Search
+G0002309,Facebook,Social media
+G0002313,Facebook,Social media
+G0002319,Social media,Social media
+G0002335,,Missing
+G0002340,,Missing
+G0002342,google search,Search
+G0002345,,Missing
+G0002346,Friend,Friend or family
+G0002353,Magazine,Magazine
+G0002354,Our magazine,Magazine
+G0002356,google search,Search
+G0002362,Facebook,Social media
+G0002367,Facebook,Social media
+G0002368,Social media,Social media
+G0002370,Event,Event
+G0002372,Other,Other
+G0002374,Social media,Social media
+G0002376,Google,Search
+G0002377,Social media,Social media
+G0002383,,Missing
+G0002387,Google,Search
+G0002388,Facebook,Social media
+G0002389,Magazine,Magazine
+G0002390,Friend,Friend or family
+G0002394,Event,Event
+G0002398,Friend,Friend or family
+G0002400,google search,Search
+G0002401,Facebook,Social media
+G0002402,Google,Search
+G0002405,Other,Other
+G0002410,Friend,Friend or family
+G0002412,Friend,Friend or family
+G0002416,Other,Other
+G0002422,google search,Search
+G0002426,Google,Search
+G0002427,Friend,Friend or family
+G0002428,Google,Search
+G0002429,Magazine,Magazine
+G0002432,Google,Search
+G0002433,google search,Search
+G0002435,Facebook,Social media
+G0002436,Google,Search
+G0002438,Google,Search
+G0002439,Social media,Social media
+G0002447,Other,Other
+G0002452,Magazine,Magazine
+G0002453,Magazine,Magazine
+G0002454,Magazine,Magazine
+G0002461,Facebook,Social media
+G0002471,Event,Event
+G0002479,Friend,Friend or family
+G0002490,google search,Search
+G0002492,Event,Event
+G0002495,,Missing
+G0002498,Event,Event
+G0002505,Other,Other
+G0002507,Facebook,Social media
+G0002508,Our magazine,Magazine
+G0002516,google search,Search
+G0002519,friend or family,Friend or family
+G0002520,,Missing
+G0002523,Google,Search
+G0002526,Magazine,Magazine
+G0002528,google search,Search
+G0002531,Facebook,Social media
+G0002533,Social media,Social media
+G0002535,Google,Search
+G0002537,,Missing
+G0002542,Magazine,Magazine
+G0002546,Our magazine,Magazine
+G0002547,google search,Search
+G0002548,Event,Event
+G0002552,Google,Search
+G0002559,Other,Other
+G0002560,google search,Search
+G0002572,Magazine,Magazine
+G0002573,Facebook,Social media
+G0002574,google search,Search
+G0002577,Google,Search
+G0002582,Our magazine,Magazine
+G0002584,Friend,Friend or family
+G0002588,Friend,Friend or family
+G0002594,Google,Search
+G0002600,Social media,Social media
+G0002601,Social media,Social media
+G0002602,Other,Other
+G0002617,Google,Search
+G0002620,Magazine,Magazine
+G0002622,Social media,Social media
+G0002626,Event,Event
+G0002634,Social media,Social media
+G0002638,Magazine,Magazine
+G0002641,Magazine,Magazine
+G0002646,Our magazine,Magazine
+G0002660,Event,Event
+G0002661,Google,Search
+G0002663,Other,Other
+G0002667,Friend,Friend or family
+G0002669,Google,Search
+G0002671,Our magazine,Magazine
+G0002680,Google,Search
+G0002682,Friend,Friend or family
+G0002683,friend or family,Friend or family
+G0002684,friend or family,Friend or family
+G0002685,Facebook,Social media
+G0002695,Friend,Friend or family
+G0002696,Social media,Social media
+G0002700,Google,Search
+G0002702,,Missing
+G0002703,Magazine,Magazine
+G0002709,Google,Search
+G0002710,Google,Search
+G0002711,Google,Search
+G0002715,Other,Other
+G0002720,Friend,Friend or family
+G0002725,Google,Search
+G0002729,Social media,Social media
+G0002737,Google,Search
+G0002738,Social media,Social media
+G0002742,Magazine,Magazine
+G0002745,Social media,Social media
+G0002749,Google,Search
+G0002750,Social media,Social media
+G0002751,Google,Search
+G0002759,Google,Search
+G0002761,Other,Other
+G0002763,Google,Search
+G0002765,Facebook,Social media
+G0002769,Our magazine,Magazine
+G0002778,Other,Other
+G0002780,friend or family,Friend or family
+G0002784,Google,Search
+G0002785,Social media,Social media
+G0002790,Google,Search
+G0002797,Other,Other
+G0002801,Friend,Friend or family
+G0002802,Google,Search
+G0002808,Event,Event
+G0002816,Other,Other
+G0002817,Magazine,Magazine
+G0002818,friend or family,Friend or family
+G0002829,Google,Search
+G0002832,Facebook,Social media
+G0002833,Google,Search
+G0002835,Magazine,Magazine
+G0002842,Social media,Social media
+G0002846,Our magazine,Magazine
+G0002847,Magazine,Magazine
+G0002848,Magazine,Magazine
+G0002859,Magazine,Magazine
+G0002863,Google,Search
+G0002870,Google,Search
+G0002877,Google,Search
+G0002878,Other,Other
+G0002881,Google,Search
+G0002886,Friend,Friend or family
+G0002887,Google,Search
+G0002889,Magazine,Magazine
+G0002895,Other,Other
+G0002898,Facebook,Social media
+G0002902,friend or family,Friend or family
+G0002908,Friend,Friend or family
+G0002909,Other,Other
+G0002918,friend or family,Friend or family
+G0002919,Google,Search
+G0002922,Other,Other
+G0002924,Event,Event
+G0002928,Social media,Social media
+G0002929,friend or family,Friend or family
+G0002932,Google,Search
+G0002938,,Missing
+G0002945,Google,Search
+G0002947,Facebook,Social media
+G0002949,google search,Search
+G0002950,Magazine,Magazine
+G0002955,friend or family,Friend or family
+G0002957,,Missing
+G0002963,Magazine,Magazine
+G0002964,Google,Search
+G0002968,Facebook,Social media
+G0002974,friend or family,Friend or family
+G0002978,Facebook,Social media
+G0002980,google search,Search
+G0002991,,Missing
+G0002995,Other,Other
+G0002996,Other,Other
+G0002999,Magazine,Magazine
+G0003003,Our magazine,Magazine
+G0003004,Magazine,Magazine
+G0003015,Google,Search
+G0003019,,Missing
+G0003020,Event,Event
+G0003021,Other,Other
+G0003023,Google,Search
+G0003028,Other,Other
+G0003029,Friend,Friend or family
+G0003032,Other,Other
+G0003033,Friend,Friend or family
+G0003034,Google,Search
+G0003039,Our magazine,Magazine
+G0003042,Google,Search
+G0003044,Magazine,Magazine
+G0003051,Friend,Friend or family
+G0003055,Social media,Social media
+G0003057,google search,Search
+G0003062,Social media,Social media
+G0003066,Google,Search
+G0003071,Magazine,Magazine
+G0003074,Other,Other
+G0003080,Other,Other
+G0003082,Friend,Friend or family
+G0003083,Google,Search
+G0003085,Social media,Social media
+G0003086,Magazine,Magazine
+G0003090,Google,Search
+G0003106,friend or family,Friend or family
+G0003108,google search,Search
+G0003112,Event,Event
+G0003116,google search,Search
+G0003119,Event,Event
+G0003121,Magazine,Magazine
+G0003123,Magazine,Magazine
+G0003125,Google,Search
+G0003129,Magazine,Magazine
+G0003135,,Missing
+G0003136,Other,Other
+G0003139,Google,Search
+G0003142,Social media,Social media
+G0003151,friend or family,Friend or family
+G0003162,,Missing
+G0003167,friend or family,Friend or family
+G0003168,Social media,Social media
+G0003174,Other,Other
+G0003176,Facebook,Social media
+G0003182,Magazine,Magazine
+G0003184,,Missing
+G0003187,Event,Event
+G0003189,Facebook,Social media
+G0003190,Event,Event
+G0003207,Event,Event
+G0003218,google search,Search
+G0003220,google search,Search
+G0003222,Magazine,Magazine
+G0003228,Friend,Friend or family
+G0003230,Other,Other
+G0003231,Other,Other
+G0003232,Event,Event
+G0003233,Magazine,Magazine
+G0003237,Facebook,Social media
+G0003248,Our magazine,Magazine
+G0003253,Other,Other
+G0003254,Our magazine,Magazine
+G0003258,Friend,Friend or family
+G0003260,Magazine,Magazine
+G0003261,Magazine,Magazine
+G0003262,Google,Search
+G0003267,Google,Search
+G0003272,Other,Other
+G0003273,Social media,Social media
+G0003287,Magazine,Magazine
+G0003295,Other,Other
+G0003298,Other,Other
+G0003299,Friend,Friend or family
+G0003301,Facebook,Social media
+G0003304,,Missing
+G0003305,google search,Search
+G0003310,friend or family,Friend or family
+G0003313,google search,Search
+G0003319,Our magazine,Magazine
+G0003321,Magazine,Magazine
+G0003325,Other,Other
+G0003327,Facebook,Social media
+G0003329,Social media,Social media
+G0003335,Google,Search
+G0003336,Facebook,Social media
+G0003357,Google,Search
+G0003360,Magazine,Magazine
+G0003361,Social media,Social media
+G0003362,Google,Search
+G0003369,Other,Other
+G0003371,google search,Search
+G0003374,Friend,Friend or family
+G0003378,Google,Search
+G0003382,Our magazine,Magazine
+G0003384,Google,Search
+G0003388,Our magazine,Magazine
+G0003392,,Missing
+G0003396,friend or family,Friend or family
+G0003397,Magazine,Magazine
+G0003399,,Missing
+G0003403,friend or family,Friend or family
+G0003404,Friend,Friend or family
+G0003405,Social media,Social media
+G0003406,Social media,Social media
+G0003410,Social media,Social media
+G0003416,Friend,Friend or family
+G0003417,Event,Event
+G0003423,Google,Search
+G0003439,Google,Search
+G0003441,Magazine,Magazine
+G0003443,,Missing
+G0003449,Friend,Friend or family
+G0003456,Event,Event
+G0003463,Facebook,Social media
+G0003465,Social media,Social media
+G0003467,Google,Search
+G0003468,Social media,Social media
+G0003469,Our magazine,Magazine
+G0003472,Event,Event
+G0003476,friend or family,Friend or family
+G0003481,Friend,Friend or family
+G0003482,google search,Search
+G0003488,,Missing
+G0003489,Magazine,Magazine
+G0003492,Event,Event
+G0003502,Friend,Friend or family
+G0003504,Google,Search
+G0003509,google search,Search
+G0003514,,Missing
+G0003518,friend or family,Friend or family
+G0003520,Event,Event
+G0003521,Facebook,Social media
+G0003522,Magazine,Magazine
+G0003528,Google,Search
+G0003529,Event,Event
+G0003532,Event,Event
+G0003541,Google,Search
+G0003542,Google,Search
+G0003543,Google,Search
+G0003547,Event,Event
+G0003549,Friend,Friend or family
+G0003560,friend or family,Friend or family
+G0003566,Other,Other
+G0003568,Our magazine,Magazine
+G0003570,Other,Other
+G0003571,Social media,Social media
+G0003572,Other,Other
+G0003577,,Missing
+G0003589,Magazine,Magazine
+G0003592,Our magazine,Magazine
+G0003596,,Missing
+G0003598,Magazine,Magazine
+G0003599,Event,Event
+G0003600,Social media,Social media
+G0003602,Other,Other
+G0003613,Google,Search
+G0003623,Friend,Friend or family
+G0003624,Google,Search
+G0003625,Our magazine,Magazine
+G0003629,Facebook,Social media
+G0003631,Social media,Social media
+G0003638,,Missing
+G0003647,google search,Search
+G0003656,Other,Other
+G0003659,Social media,Social media
+G0003660,Magazine,Magazine
+G0003662,Google,Search
+G0003663,Event,Event
+G0003667,google search,Search
+G0003674,Other,Other
+G0003677,Other,Other
+G0003678,Magazine,Magazine
+G0003682,google search,Search
+G0003684,Social media,Social media
+G0003689,Facebook,Social media
+G0003697,Other,Other
+G0003699,Friend,Friend or family
+G0003701,Google,Search
+G0003703,Event,Event
+G0003705,Other,Other
+G0003706,Our magazine,Magazine
+G0003710,Google,Search
+G0003713,,Missing
+G0003714,Event,Event
+G0003718,Google,Search
+G0003719,Magazine,Magazine
+G0003722,Event,Event
+G0003724,google search,Search
+G0003727,Other,Other
+G0003728,Friend,Friend or family
+G0003732,Google,Search
+G0003738,Social media,Social media
+G0003740,Event,Event
+G0003746,Event,Event
+G0003751,,Missing
+G0003758,Event,Event
+G0003763,friend or family,Friend or family
+G0003773,Magazine,Magazine
+G0003776,Event,Event
+G0003782,Google,Search
+G0003789,Magazine,Magazine
+G0003793,Magazine,Magazine
+G0003798,Google,Search
+G0003801,,Missing
+G0003805,Google,Search
+G0003808,Magazine,Magazine
+G0003810,Social media,Social media
+G0003812,Event,Event
+G0003820,Google,Search
+G0003827,,Missing
+G0003833,Google,Search
+G0003841,Magazine,Magazine
+G0003848,,Missing
+G0003849,Social media,Social media
+G0003859,Facebook,Social media
+G0003860,google search,Search
+G0003861,friend or family,Friend or family
+G0003866,google search,Search
+G0003874,Other,Other
+G0003878,Other,Other
+G0003884,Friend,Friend or family
+G0003889,Google,Search
+G0003899,Friend,Friend or family
+G0003900,Magazine,Magazine
+G0003911,Google,Search
+G0003913,friend or family,Friend or family
+G0003914,friend or family,Friend or family
+G0003916,Magazine,Magazine
+G0003922,Other,Other
+G0003924,Google,Search
+G0003927,friend or family,Friend or family
+G0003929,Other,Other
+G0003931,Google,Search
+G0003933,Other,Other
+G0003936,Other,Other
+G0003938,Other,Other
+G0003939,Friend,Friend or family
+G0003944,Our magazine,Magazine
+G0003948,Other,Other
+G0003949,Google,Search
+G0003954,friend or family,Friend or family
+G0003958,Event,Event
+G0003959,Facebook,Social media
+G0003965,google search,Search
+G0003967,Other,Other
+G0003968,Friend,Friend or family
+G0003974,friend or family,Friend or family
+G0003981,Other,Other
+G0003990,Google,Search
+G0003994,google search,Search
+G0003996,Google,Search
+G0003999,Our magazine,Magazine
+G0004001,Other,Other
+G0004004,Friend,Friend or family
+G0004008,Facebook,Social media
+G0004012,Google,Search
+G0004013,Google,Search
+G0004018,,Missing
+G0004021,Social media,Social media
+G0004030,Social media,Social media
+G0004031,friend or family,Friend or family
+G0004037,Google,Search
+G0004038,Our magazine,Magazine
+G0004045,Friend,Friend or family
+G0004047,Google,Search
+G0004056,Google,Search
+G0004062,Our magazine,Magazine
+G0004067,Our magazine,Magazine
+G0004074,friend or family,Friend or family
+G0004076,Social media,Social media
+G0004078,Social media,Social media
+G0004079,Friend,Friend or family
+G0004080,Friend,Friend or family
+G0004084,Other,Other
+G0004089,friend or family,Friend or family
+G0004091,Google,Search
+G0004098,Other,Other
+G0004106,Event,Event
+G0004110,Magazine,Magazine
+G0004115,Magazine,Magazine
+G0004120,Google,Search
+G0004123,Facebook,Social media
+G0004124,Google,Search
+G0004138,Social media,Social media
+G0004139,Social media,Social media
+G0004141,Magazine,Magazine
+G0004145,Event,Event
+G0004147,Google,Search
+G0004148,Friend,Friend or family
+G0004150,Friend,Friend or family
+G0004159,Magazine,Magazine
+G0004165,Event,Event
+G0004172,Social media,Social media
+G0004174,friend or family,Friend or family
+G0004177,Other,Other
+G0004181,Magazine,Magazine
+G0004188,Our magazine,Magazine
+G0004189,google search,Search
+G0004192,Event,Event
+G0004197,Other,Other
+G0004205,Social media,Social media
+G0004209,,Missing
+G0004210,Magazine,Magazine
+G0004213,Social media,Social media
+G0004214,Event,Event
+G0004226,Magazine,Magazine
+G0004228,Magazine,Magazine
+G0004229,Social media,Social media
+G0004230,Our magazine,Magazine
+G0004234,Google,Search
+G0004236,Friend,Friend or family
+G0004238,Other,Other
+G0004242,Our magazine,Magazine
+G0004245,Google,Search
+G0004249,Magazine,Magazine
+G0004251,Friend,Friend or family
+G0004252,Friend,Friend or family
+G0004253,Our magazine,Magazine
+G0004256,Friend,Friend or family
+G0004260,Other,Other
+G0004263,Google,Search
+G0004265,Friend,Friend or family
+G0004270,Magazine,Magazine
+G0004276,Facebook,Social media
+G0004278,Our magazine,Magazine
+G0004283,friend or family,Friend or family
+G0004289,friend or family,Friend or family
+G0004296,,Missing
+G0004298,friend or family,Friend or family
+G0004300,Event,Event
+G0004309,friend or family,Friend or family
+G0004310,Other,Other
+G0004314,Friend,Friend or family
+G0004315,Magazine,Magazine
+G0004317,Social media,Social media
+G0004326,Social media,Social media
+G0004333,Friend,Friend or family
+G0004334,google search,Search
+G0004335,Facebook,Social media
+G0004339,Magazine,Magazine
+G0004340,Google,Search
+G0004345,Our magazine,Magazine
+G0004347,Event,Event
+G0004349,Google,Search
+G0004350,Event,Event
+G0004364,friend or family,Friend or family
+G0004365,Google,Search
+G0004368,Other,Other
+G0004369,Facebook,Social media
+G0004370,Other,Other
+G0004375,Google,Search
+G0004378,Social media,Social media
+G0004390,google search,Search
+G0004394,Social media,Social media
+G0004396,Other,Other
+G0004400,google search,Search
+G0004407,Friend,Friend or family
+G0004412,Other,Other
+G0004417,Magazine,Magazine
+G0004418,Friend,Friend or family
+G0004425,Event,Event
+G0004430,Magazine,Magazine
+G0004433,Google,Search
+G0004438,Magazine,Magazine
+G0004440,Magazine,Magazine
+G0004441,Google,Search
+G0004443,Magazine,Magazine
+G0004444,Google,Search
+G0004445,Social media,Social media
+G0004446,Our magazine,Magazine
+G0004447,Our magazine,Magazine
+G0004448,Magazine,Magazine
+G0004449,Magazine,Magazine
+G0004451,google search,Search
+G0004452,Facebook,Social media
+G0004453,,Missing
+G0004459,Google,Search
+G0004460,Friend,Friend or family
+G0004461,Google,Search
+G0004463,Our magazine,Magazine
+G0004466,Our magazine,Magazine
+G0004469,google search,Search
+G0004470,Magazine,Magazine
+G0004491,Friend,Friend or family
+G0004494,Friend,Friend or family
+G0004500,Google,Search
+G0004512,google search,Search
+G0004515,Event,Event
+G0004518,Social media,Social media
+G0004526,Social media,Social media
+G0004528,google search,Search
+G0004531,Google,Search
+G0004532,Google,Search
+G0004533,Social media,Social media
+G0004535,Magazine,Magazine
+G0004536,Event,Event
+G0004539,Magazine,Magazine
+G0004544,Our magazine,Magazine
+G0004548,Friend,Friend or family
+G0004553,Google,Search
+G0004555,Magazine,Magazine
+G0004556,Google,Search
+G0004566,google search,Search
+G0004574,friend or family,Friend or family
+G0004578,Friend,Friend or family
+G0004579,Friend,Friend or family
+G0004582,Facebook,Social media
+G0004585,Social media,Social media
+G0004590,friend or family,Friend or family
+G0004591,Our magazine,Magazine
+G0004594,Event,Event
+G0004603,Social media,Social media
+G0004604,Our magazine,Magazine
+G0004605,Event,Event
+G0004608,Friend,Friend or family
+G0004611,friend or family,Friend or family
+G0004613,google search,Search
+G0004620,Google,Search
+G0004624,Friend,Friend or family
+G0004626,Our magazine,Magazine
+G0004632,Event,Event
+G0004633,Facebook,Social media
+G0004634,Magazine,Magazine
+G0004637,,Missing
+G0004638,Google,Search
+G0004640,,Missing
+G0004642,Google,Search
+G0004643,Event,Event
+G0004646,google search,Search
+G0004647,Our magazine,Magazine
+G0004649,Social media,Social media
+G0004650,google search,Search
+G0004651,Friend,Friend or family
+G0004654,Google,Search
+G0004657,Social media,Social media
+G0004661,Our magazine,Magazine
+G0004662,Magazine,Magazine
+G0004668,Friend,Friend or family
+G0004670,Friend,Friend or family
+G0004671,Social media,Social media
+G0004674,friend or family,Friend or family
+G0004678,Social media,Social media
+G0004684,Google,Search
+G0004685,friend or family,Friend or family
+G0004687,Google,Search
+G0004690,Event,Event
+G0004693,Social media,Social media
+G0004694,Google,Search
+G0004696,google search,Search
+G0004698,Facebook,Social media
+G0004700,Google,Search
+G0004702,Google,Search
+G0004707,Event,Event
+G0004708,Magazine,Magazine
+G0004719,,Missing
+G0004720,Google,Search
+G0004724,Google,Search
+G0004728,Friend,Friend or family
+G0004731,Magazine,Magazine
+G0004732,Our magazine,Magazine
+G0004746,,Missing
+G0004747,Other,Other
+G0004749,google search,Search
+G0004752,Social media,Social media
+G0004753,Friend,Friend or family
+G0004754,Facebook,Social media
+G0004762,Friend,Friend or family
+G0004767,Google,Search
+G0004770,Other,Other
+G0004785,Facebook,Social media
+G0004787,Google,Search
+G0004789,google search,Search
+G0004794,Our magazine,Magazine
+G0004796,Our magazine,Magazine
+G0004797,Social media,Social media
+G0004798,google search,Search
+G0004800,google search,Search
+G0004803,Google,Search
+G0004808,Our magazine,Magazine
+G0004810,Other,Other
+G0004814,Google,Search
+G0004819,Magazine,Magazine
+G0004820,Social media,Social media
+G0004823,Facebook,Social media
+G0004824,Social media,Social media
+G0004826,Google,Search
+G0004829,Friend,Friend or family
+G0004832,google search,Search
+G0004833,Google,Search
+G0004834,Magazine,Magazine
+G0004835,friend or family,Friend or family
+G0004840,Other,Other
+G0004857,Event,Event
+G0004864,Event,Event
+G0004874,google search,Search
+G0004878,Friend,Friend or family
+G0004885,google search,Search
+G0004888,Our magazine,Magazine
+G0004889,Other,Other
+G0004892,google search,Search
+G0004894,Google,Search
+G0004896,Friend,Friend or family
+G0004906,Social media,Social media
+G0004911,Google,Search
+G0004921,Google,Search
+G0004922,Our magazine,Magazine
+G0004931,google search,Search
+G0004935,Social media,Social media
+G0004941,Our magazine,Magazine
+G0004952,Google,Search
+G0004954,Google,Search
+G0004955,,Missing
+G0004956,Facebook,Social media
+G0004960,Our magazine,Magazine
+G0004961,Friend,Friend or family
+G0004962,google search,Search
+G0004965,Magazine,Magazine
+G0004969,Social media,Social media
+G0004971,Magazine,Magazine
+G0004975,Other,Other
+G0004979,Social media,Social media
+G0004984,google search,Search
+G0004986,google search,Search
+G0004988,Social media,Social media
+G0004993,Friend,Friend or family
+G0004995,google search,Search
+G0004997,Our magazine,Magazine
+G0005001,Magazine,Magazine
+G0005003,Magazine,Magazine
+G0005007,Event,Event
+G0005008,Google,Search
+G0005012,Social media,Social media
+G0005014,,Missing
+G0005021,Facebook,Social media
+G0005033,Magazine,Magazine
+G0005035,Magazine,Magazine
+G0005041,,Missing
+G0005043,Friend,Friend or family
+G0005044,google search,Search
+G0005045,Google,Search
+G0005046,Social media,Social media
+G0005049,,Missing
+G0005054,Event,Event
+G0005056,google search,Search
+G0005058,Friend,Friend or family
+G0005059,,Missing
+G0005062,,Missing
+G0005072,Other,Other
+G0005074,Facebook,Social media
+G0005077,Facebook,Social media
+G0005080,Social media,Social media
+G0005082,Magazine,Magazine
+G0005084,Other,Other
+G0005090,Our magazine,Magazine
+G0005098,Facebook,Social media
+G0005102,Social media,Social media
+G0005103,friend or family,Friend or family
+G0005105,Social media,Social media
+G0005107,Our magazine,Magazine
+G0005108,Magazine,Magazine
+G0005120,google search,Search
+G0005122,Social media,Social media
+G0005124,Magazine,Magazine
+G0005131,Google,Search
+G0005133,Google,Search
+G0005138,Event,Event
+G0005155,Our magazine,Magazine
+G0005156,Social media,Social media
+G0005159,friend or family,Friend or family
+G0005170,Magazine,Magazine
+G0005172,Our magazine,Magazine
+G0005173,Google,Search
+G0005179,Other,Other
+G0005184,Friend,Friend or family
+G0005189,Other,Other
+G0005191,Event,Event
+G0005193,Our magazine,Magazine
+G0005194,Other,Other
+G0005197,Friend,Friend or family
+G0005201,Social media,Social media
+G0005210,Magazine,Magazine
+G0005218,Magazine,Magazine
+G0005220,Facebook,Social media
+G0005224,google search,Search
+G0005225,Friend,Friend or family
+G0005231,Our magazine,Magazine
+G0005233,Google,Search
+G0005239,,Missing
+G0005240,Magazine,Magazine
+G0005250,Google,Search
+G0005253,Magazine,Magazine
+G0005256,google search,Search
+G0005257,friend or family,Friend or family
+G0005262,Friend,Friend or family
+G0005279,Google,Search
+G0005280,Other,Other
+G0005283,Magazine,Magazine
+G0005292,Social media,Social media
+G0005297,Our magazine,Magazine
+G0005300,Magazine,Magazine
+G0005303,Google,Search
+G0005309,Facebook,Social media
+G0005312,Social media,Social media
+G0005314,Other,Other
+G0005315,Friend,Friend or family
+G0005318,Magazine,Magazine
+G0005323,Friend,Friend or family
+G0005326,Friend,Friend or family
+G0005327,Magazine,Magazine
+G0005328,friend or family,Friend or family
+G0005331,Google,Search
+G0005332,Magazine,Magazine
+G0005345,friend or family,Friend or family
+G0005348,Facebook,Social media
+G0005351,Social media,Social media
+G0005354,Google,Search
+G0005357,Friend,Friend or family
+G0005359,Social media,Social media
+G0005370,google search,Search
+G0005372,Google,Search
+G0005378,Friend,Friend or family
+G0005379,,Missing
+G0005381,Other,Other
+G0005387,Facebook,Social media
+G0005394,Google,Search
+G0005397,Google,Search
+G0005398,Magazine,Magazine
+G0005399,Magazine,Magazine
+G0005408,Friend,Friend or family
+G0005412,Google,Search
+G0005415,Our magazine,Magazine
+G0005421,Our magazine,Magazine
+G0005432,Google,Search
+G0005435,Magazine,Magazine
+G0005440,Our magazine,Magazine
+G0005442,,Missing
+G0005446,Magazine,Magazine
+G0005447,Magazine,Magazine
+G0005452,Social media,Social media
+G0005454,google search,Search
+G0005455,Google,Search
+G0005456,Magazine,Magazine
+G0005461,Google,Search
+G0005475,Our magazine,Magazine
+G0005477,,Missing
+G0005483,Our magazine,Magazine
+G0005487,Google,Search
+G0005489,Facebook,Social media
+G0005490,Event,Event
+G0005494,Google,Search
+G0005499,,Missing
+G0005502,Google,Search
+G0005503,friend or family,Friend or family
+G0005504,,Missing
+G0005505,Facebook,Social media
+G0005506,google search,Search
+G0005511,Friend,Friend or family
+G0005514,google search,Search
+G0005515,Google,Search
+G0005517,Other,Other
+G0005520,Google,Search
+G0005528,Event,Event
+G0005529,Google,Search
+G0005534,Friend,Friend or family
+G0005535,,Missing
+G0005545,Our magazine,Magazine
+G0005552,Other,Other
+G0005559,Magazine,Magazine
+G0005577,Social media,Social media
+G0005578,google search,Search
+G0005579,Event,Event
+G0005588,Our magazine,Magazine
+G0005592,Other,Other
+G0005593,Magazine,Magazine
+G0005596,Magazine,Magazine
+G0005600,Our magazine,Magazine
+G0005603,Our magazine,Magazine
+G0005604,Other,Other
+G0005607,Google,Search
+G0005611,Other,Other
+G0005612,google search,Search
+G0005616,google search,Search
+G0005618,Magazine,Magazine
+G0005620,Our magazine,Magazine
+G0005631,Facebook,Social media
+G0005633,Social media,Social media
+G0005636,Friend,Friend or family
+G0005641,Event,Event
+G0005646,Google,Search
+G0005648,Our magazine,Magazine
+G0005649,friend or family,Friend or family
+G0005652,Magazine,Magazine
+G0005654,Google,Search
+G0005659,Facebook,Social media
+G0005662,friend or family,Friend or family
+G0005663,Social media,Social media
+G0005677,Google,Search
+G0005680,,Missing
+G0005682,Other,Other
+G0005686,,Missing
+G0005689,Magazine,Magazine
+G0005695,Social media,Social media
+G0005696,Google,Search
+G0005698,Friend,Friend or family
+G0005700,Other,Other
+G0005703,Social media,Social media
+G0005704,,Missing
+G0005705,friend or family,Friend or family
+G0005709,Magazine,Magazine
+G0005710,friend or family,Friend or family
+G0005713,Magazine,Magazine
+G0005718,Other,Other
+G0005732,Friend,Friend or family
+G0005734,Event,Event
+G0005737,Facebook,Social media
+G0005738,Friend,Friend or family
+G0005739,Friend,Friend or family
+G0005740,Other,Other
+G0005743,Our magazine,Magazine
+G0005748,Magazine,Magazine
+G0005753,Other,Other
+G0005754,Google,Search
+G0005758,google search,Search
+G0005760,friend or family,Friend or family
+G0005765,Google,Search
+G0005766,Other,Other
+G0005767,friend or family,Friend or family
+G0005769,Magazine,Magazine
+G0005771,Friend,Friend or family
+G0005777,google search,Search
+G0005783,google search,Search
+G0005788,Other,Other
+G0005792,,Missing
+G0005796,Facebook,Social media
+G0005807,Friend,Friend or family
+G0005808,Our magazine,Magazine
+G0005810,google search,Search
+G0005812,Other,Other
+G0005813,google search,Search
+G0005820,Magazine,Magazine
+G0005823,Other,Other
+G0005826,Magazine,Magazine
+G0005832,Friend,Friend or family
+G0005833,Our magazine,Magazine
+G0005834,Our magazine,Magazine
+G0005835,,Missing
+G0005837,Facebook,Social media
+G0005838,Google,Search
+G0005839,Google,Search
+G0005845,,Missing
+G0005846,google search,Search
+G0005848,Google,Search
+G0005856,Other,Other
+G0005860,Facebook,Social media
+G0005867,Magazine,Magazine
+G0005868,Other,Other
+G0005872,Other,Other
+G0005873,Our magazine,Magazine
+G0005875,Other,Other
+G0005878,Magazine,Magazine
+G0005884,Google,Search
+G0005885,Facebook,Social media
+G0005893,google search,Search
+G0005896,google search,Search
+G0005901,friend or family,Friend or family
+G0005904,,Missing
+G0005910,Magazine,Magazine
+G0005912,google search,Search
+G0005914,Event,Event
+G0005918,Event,Event
+G0005923,Our magazine,Magazine
+G0005925,Our magazine,Magazine
+G0005929,Social media,Social media
+G0005930,Friend,Friend or family
+G0005933,Friend,Friend or family
+G0005934,google search,Search
+G0005937,,Missing
+G0005939,Social media,Social media
+G0005941,Google,Search
+G0005944,Social media,Social media
+G0005945,Friend,Friend or family
+G0005951,Facebook,Social media
+G0005955,Magazine,Magazine
+G0005958,Social media,Social media
+G0005962,Social media,Social media
+G0005963,Facebook,Social media
+G0005972,Event,Event
+G0005974,Google,Search
+G0005977,Other,Other
+G0005979,friend or family,Friend or family
+G0005982,Social media,Social media
+G0005985,,Missing
+G0005986,google search,Search
+G0005988,Google,Search
+G0005989,google search,Search
+G0005991,Facebook,Social media
+G0005993,Our magazine,Magazine
+G0005994,Social media,Social media
+G0005997,Google,Search
+G0006000,Magazine,Magazine
+G0006001,Event,Event
+G0006003,Social media,Social media
+G0006006,Other,Other
+G0006007,google search,Search
+G0006008,Google,Search
+G0006017,friend or family,Friend or family
+G0006018,Event,Event
+G0006019,Social media,Social media
+G0006030,Our magazine,Magazine
+G0006034,Friend,Friend or family
+G0006035,Google,Search
+G0006041,Our magazine,Magazine
+G0006042,Facebook,Social media
+G0006044,Friend,Friend or family
+G0006045,google search,Search
+G0006047,Google,Search
+G0006050,Event,Event
+G0006051,Google,Search
+G0006053,Google,Search
+G0006054,Magazine,Magazine
+G0006057,google search,Search
+G0006061,Social media,Social media
+G0006065,friend or family,Friend or family
+G0006067,Event,Event
+G0006068,google search,Search
+G0006069,google search,Search
+G0006070,google search,Search
+G0006071,,Missing
+G0006078,Friend,Friend or family
+G0006079,Social media,Social media
+G0006080,Google,Search
+G0006081,Social media,Social media
+G0006087,Magazine,Magazine
+G0006091,Facebook,Social media
+G0006094,Google,Search
+G0006095,Magazine,Magazine
+G0006099,Our magazine,Magazine
+G0006100,Magazine,Magazine
+G0006112,Google,Search
+G0006116,Magazine,Magazine
+G0006117,Event,Event
+G0006118,Event,Event
+G0006121,Magazine,Magazine
+G0006122,Magazine,Magazine
+G0006125,Google,Search
+G0006137,Other,Other
+G0006139,Social media,Social media
+G0006141,Google,Search
+G0006146,Social media,Social media
+G0006147,google search,Search
+G0006149,Magazine,Magazine
+G0006150,Social media,Social media
+G0006151,Facebook,Social media
+G0006155,google search,Search
+G0006156,Other,Other
+G0006158,Google,Search
+G0006163,Other,Other
+G0006171,Google,Search
+G0006173,google search,Search
+G0006176,google search,Search
+G0006180,Friend,Friend or family
+G0006182,Magazine,Magazine
+G0006185,Event,Event
+G0006191,Our magazine,Magazine
+G0006197,Magazine,Magazine
+G0006199,Friend,Friend or family
+G0006203,Social media,Social media
+G0006205,Friend,Friend or family
+G0006208,,Missing
+G0006209,friend or family,Friend or family
+G0006210,google search,Search
+G0006214,Google,Search
+G0006216,Magazine,Magazine
+G0006219,Friend,Friend or family
+G0006220,Magazine,Magazine
+G0006222,Google,Search
+G0006223,google search,Search
+G0006224,Magazine,Magazine
+G0006225,Google,Search
+G0006229,Magazine,Magazine
+G0006235,Facebook,Social media
+G0006245,Other,Other
+G0006251,Our magazine,Magazine
+G0006252,Friend,Friend or family
+G0006254,Social media,Social media
+G0006258,Our magazine,Magazine
+G0006260,,Missing
+G0006262,Other,Other
+G0006264,Other,Other
+G0006274,,Missing
+G0006282,Our magazine,Magazine
+G0006286,Event,Event
+G0006288,google search,Search
+G0006291,google search,Search
+G0006295,Google,Search
+G0006300,Magazine,Magazine
+G0006301,friend or family,Friend or family
+G0006303,google search,Search
+G0006310,Event,Event
+G0006311,Event,Event
+G0006314,Other,Other
+G0006317,Facebook,Social media
+G0006320,Social media,Social media
+G0006326,Other,Other
+G0006329,friend or family,Friend or family
+G0006331,Friend,Friend or family
+G0006332,Google,Search
+G0006334,Magazine,Magazine
+G0006335,Event,Event
+G0006337,Google,Search
+G0006341,Facebook,Social media
+G0006348,Magazine,Magazine
+G0006350,Other,Other
+G0006352,,Missing
+G0006356,Google,Search
+G0006357,Google,Search
+G0006358,Facebook,Social media
+G0006359,Our magazine,Magazine
+G0006360,Google,Search
+G0006364,Friend,Friend or family
+G0006367,Google,Search
+G0006370,Event,Event
+G0006375,Magazine,Magazine
+G0006377,google search,Search
+G0006378,Google,Search
+G0006386,google search,Search
+G0006387,Magazine,Magazine
+G0006388,,Missing
+G0006392,google search,Search
+G0006396,Facebook,Social media
+G0006398,Friend,Friend or family
+G0006402,Google,Search
+G0006407,friend or family,Friend or family
+G0006411,friend or family,Friend or family
+G0006413,Our magazine,Magazine
+G0006415,friend or family,Friend or family
+G0006418,Magazine,Magazine
+G0006419,friend or family,Friend or family
+G0006421,Google,Search
+G0006425,google search,Search
+G0006426,Magazine,Magazine
+G0006427,Facebook,Social media
+G0006430,Event,Event
+G0006431,,Missing
+G0006433,Google,Search
+G0006444,Our magazine,Magazine
+G0006450,Social media,Social media
+G0006451,Other,Other
+G0006458,Google,Search
+G0006463,Facebook,Social media
+G0006469,Friend,Friend or family
+G0006472,Other,Other
+G0006480,Google,Search
+G0006482,Facebook,Social media
+G0006491,friend or family,Friend or family
+G0006499,Magazine,Magazine
+G0006508,Social media,Social media
+G0006513,friend or family,Friend or family
+G0006520,Google,Search
+G0006521,google search,Search
+G0006523,Google,Search
+G0006524,Magazine,Magazine
+G0006530,Friend,Friend or family
+G0006531,Friend,Friend or family
+G0006533,,Missing
+G0006534,Friend,Friend or family
+G0006535,google search,Search
+G0006539,Social media,Social media
+G0006540,google search,Search
+G0006544,Friend,Friend or family
+G0006548,Google,Search
+G0006555,Our magazine,Magazine
+G0006557,Friend,Friend or family
+G0006560,Other,Other
+G0006561,google search,Search
+G0006562,Google,Search
+G0006563,Other,Other
+G0006564,Magazine,Magazine
+G0006565,google search,Search
+G0006570,Friend,Friend or family
+G0006571,Social media,Social media
+G0006572,friend or family,Friend or family
+G0006574,Google,Search
+G0006575,friend or family,Friend or family
+G0006577,Event,Event
+G0006578,Event,Event
+G0006580,Other,Other
+G0006583,Magazine,Magazine
+G0006589,Facebook,Social media
+G0006592,Friend,Friend or family
+G0006599,,Missing
+G0006600,friend or family,Friend or family
+G0006601,Google,Search
+G0006602,Social media,Social media
+G0006610,Event,Event
+G0006612,Social media,Social media
+G0006613,friend or family,Friend or family
+G0006614,Other,Other
+G0006619,friend or family,Friend or family
+G0006624,Magazine,Magazine
+G0006627,google search,Search
+G0006628,Friend,Friend or family
+G0006629,Other,Other
+G0006633,Magazine,Magazine
+G0006639,Friend,Friend or family
+G0006650,Friend,Friend or family
+G0006652,Event,Event
+G0006654,Friend,Friend or family
+G0006655,Google,Search
+G0006662,Facebook,Social media
+G0006664,Our magazine,Magazine
+G0006668,friend or family,Friend or family
+G0006671,Friend,Friend or family
+G0006672,Friend,Friend or family
+G0006674,google search,Search
+G0006681,Our magazine,Magazine
+G0006682,Our magazine,Magazine
+G0006684,,Missing
+G0006689,Other,Other
+G0006697,Facebook,Social media
+G0006703,Google,Search
+G0006708,google search,Search
+G0006713,Friend,Friend or family
+G0006714,Magazine,Magazine
+G0006718,Magazine,Magazine
+G0006722,Friend,Friend or family
+G0006733,Magazine,Magazine
+G0006736,Google,Search
+G0006750,Our magazine,Magazine
+G0006751,Friend,Friend or family
+G0006753,Friend,Friend or family
+G0006755,Our magazine,Magazine
+G0006760,Facebook,Social media
+G0006762,google search,Search
+G0006764,Google,Search
+G0006766,,Missing
+G0006767,Other,Other
+G0006769,Google,Search
+G0006773,Other,Other
+G0006776,Social media,Social media
+G0006780,friend or family,Friend or family
+G0006794,friend or family,Friend or family
+G0006795,Social media,Social media
+G0006803,google search,Search
+G0006804,Our magazine,Magazine
+G0006807,Magazine,Magazine
+G0006810,Google,Search
+G0006817,Other,Other
+G0006820,Our magazine,Magazine
+G0006825,google search,Search
+G0006827,Other,Other
+G0006836,Other,Other
+G0006837,Social media,Social media
+G0006838,Other,Other
+G0006842,Magazine,Magazine
+G0006846,Magazine,Magazine
+G0006847,Our magazine,Magazine
+G0006850,Social media,Social media
+G0006851,Event,Event
+G0006857,Other,Other
+G0006858,Magazine,Magazine
+G0006863,Friend,Friend or family
+G0006866,friend or family,Friend or family
+G0006867,friend or family,Friend or family
+G0006868,Facebook,Social media
+G0006875,Event,Event
+G0006880,Social media,Social media
+G0006884,Facebook,Social media
+G0006885,google search,Search
+G0006886,Google,Search
+G0006889,google search,Search
+G0006891,Magazine,Magazine
+G0006893,Magazine,Magazine
+G0006898,Social media,Social media
+G0006901,Google,Search
+G0006903,Magazine,Magazine
+G0006904,Friend,Friend or family
+G0006928,Google,Search
+G0006930,google search,Search
+G0006934,Friend,Friend or family
+G0006937,Event,Event
+G0006940,Event,Event
+G0006945,google search,Search
+G0006947,Other,Other
+G0006950,Social media,Social media
+G0006953,Magazine,Magazine
+G0006957,Social media,Social media
+G0006959,Event,Event
+G0006960,Magazine,Magazine
+G0006961,,Missing
+G0006962,,Missing
+G0006964,Social media,Social media
+G0006966,google search,Search
+G0006967,google search,Search
+G0006969,Google,Search
+G0006970,Social media,Social media
+G0006978,Event,Event
+G0006979,,Missing
+G0006982,google search,Search
+G0006983,,Missing
+G0006990,,Missing
+G0006992,Other,Other
+G0006996,Magazine,Magazine
+G0006999,Other,Other
+G0007002,Google,Search
+G0007005,,Missing
+G0007014,Other,Other
+G0007021,Magazine,Magazine
+G0007023,Google,Search
+G0007024,Google,Search
+G0007039,friend or family,Friend or family
+G0007044,Google,Search
+G0007048,Social media,Social media
+G0007057,friend or family,Friend or family
+G0007060,Facebook,Social media
+G0007061,Friend,Friend or family
+G0007065,Magazine,Magazine
+G0007067,Event,Event
+G0007070,friend or family,Friend or family
+G0007075,Magazine,Magazine
+G0007078,google search,Search
+G0007087,Facebook,Social media
+G0007093,Other,Other
+G0007094,friend or family,Friend or family
+G0007096,Social media,Social media
+G0007101,,Missing
+G0007107,Social media,Social media
+G0007110,Friend,Friend or family
+G0007119,Other,Other
+G0007120,Google,Search
+G0007121,Magazine,Magazine
+G0007123,Other,Other
+G0007125,Magazine,Magazine
+G0007130,friend or family,Friend or family
+G0007131,Google,Search
+G0007136,friend or family,Friend or family
+G0007150,Google,Search
+G0007158,Facebook,Social media
+G0007171,Other,Other
+G0007173,Magazine,Magazine
+G0007175,Our magazine,Magazine
+G0007176,Magazine,Magazine
+G0007177,Magazine,Magazine
+G0007179,Magazine,Magazine
+G0007187,google search,Search
+G0007189,Google,Search
+G0007194,Google,Search
+G0007195,Social media,Social media
+G0007197,Our magazine,Magazine
+G0007198,friend or family,Friend or family
+G0007202,Magazine,Magazine
+G0007215,Friend,Friend or family
+G0007218,Other,Other
+G0007232,Event,Event
+G0007233,Friend,Friend or family
+G0007235,Google,Search
+G0007238,Event,Event
+G0007239,Social media,Social media
+G0007242,Google,Search
+G0007248,Event,Event
+G0007251,Magazine,Magazine
+G0007256,google search,Search
+G0007257,google search,Search
+G0007259,Our magazine,Magazine
+G0007266,Google,Search
+G0007270,Friend,Friend or family
+G0007271,google search,Search
+G0007275,Magazine,Magazine
+G0007276,Event,Event
+G0007279,Magazine,Magazine
+G0007280,Google,Search
+G0007283,google search,Search
+G0007287,google search,Search
+G0007289,google search,Search
+G0007290,Friend,Friend or family
+G0007293,Google,Search
+G0007294,friend or family,Friend or family
+G0007298,Friend,Friend or family
+G0007302,Event,Event
+G0007304,Social media,Social media
+G0007310,Google,Search
+G0007312,Social media,Social media
+G0007315,,Missing
+G0007322,Friend,Friend or family
+G0007325,Social media,Social media
+G0007327,friend or family,Friend or family
+G0007328,Magazine,Magazine
+G0007331,google search,Search
+G0007334,Facebook,Social media
+G0007337,Our magazine,Magazine
+G0007339,Social media,Social media
+G0007340,Facebook,Social media
+G0007341,Google,Search
+G0007343,Magazine,Magazine
+G0007344,Google,Search
+G0007346,Google,Search
+G0007351,Event,Event
+G0007358,Social media,Social media
+G0007362,,Missing
+G0007364,Google,Search
+G0007365,Google,Search
+G0007366,Facebook,Social media
+G0007381,Other,Other
+G0007386,Friend,Friend or family
+G0007405,Friend,Friend or family
+G0007409,Google,Search
+G0007410,Google,Search
+G0007416,Our magazine,Magazine
+G0007417,,Missing
+G0007425,google search,Search
+G0007428,Google,Search
+G0007430,Event,Event
+G0007435,Google,Search
+G0007443,google search,Search
+G0007444,Friend,Friend or family
+G0007447,friend or family,Friend or family
+G0007460,Other,Other
+G0007461,Our magazine,Magazine
+G0007464,Magazine,Magazine
+G0007468,Other,Other
+G0007471,Facebook,Social media
+G0007473,Our magazine,Magazine
+G0007475,,Missing
+G0007478,Event,Event
+G0007484,Facebook,Social media
+G0007485,Friend,Friend or family
+G0007491,Friend,Friend or family
+G0007495,Magazine,Magazine
+G0007503,Friend,Friend or family
+G0007509,Other,Other
+G0007510,Google,Search
+G0007516,Other,Other
+G0007525,Google,Search
+G0007527,Magazine,Magazine
+G0007528,Google,Search
+G0007533,Magazine,Magazine
+G0007536,Our magazine,Magazine
+G0007537,,Missing
+G0007538,Other,Other
+G0007539,Social media,Social media
+G0007545,google search,Search
+G0007550,Other,Other
+G0007556,Other,Other
+G0007559,Friend,Friend or family
+G0007561,friend or family,Friend or family
+G0007563,Google,Search
+G0007573,Friend,Friend or family
+G0007574,friend or family,Friend or family
+G0007578,,Missing
+G0007580,google search,Search
+G0007589,Social media,Social media
+G0007590,Magazine,Magazine
+G0007596,Friend,Friend or family
+G0007602,Other,Other
+G0007603,Other,Other
+G0007609,Friend,Friend or family
+G0007611,Event,Event
+G0007614,Magazine,Magazine
+G0007621,friend or family,Friend or family
+G0007623,Google,Search
+G0007626,Google,Search
+G0007627,Google,Search
+G0007630,Our magazine,Magazine
+G0007632,google search,Search
+G0007633,Google,Search
+G0007636,Social media,Social media
+G0007638,Social media,Social media
+G0007645,,Missing
+G0007649,Magazine,Magazine
+G0007650,Social media,Social media
+G0007651,Google,Search
+G0007657,google search,Search
+G0007658,Magazine,Magazine
+G0007660,Google,Search
+G0007666,,Missing
+G0007669,google search,Search
+G0007670,Magazine,Magazine
+G0007673,Other,Other
+G0007674,Event,Event
+G0007679,Magazine,Magazine
+G0007681,Magazine,Magazine
+G0007686,Other,Other
+G0007689,Magazine,Magazine
+G0007696,google search,Search
+G0007699,Event,Event
+G0007700,Social media,Social media
+G0007701,,Missing
+G0007703,Social media,Social media
+G0007716,Magazine,Magazine
+G0007725,google search,Search
+G0007727,Magazine,Magazine
+G0007731,Our magazine,Magazine
+G0007739,Magazine,Magazine
+G0007740,Friend,Friend or family
+G0007741,Social media,Social media
+G0007742,Our magazine,Magazine
+G0007745,Other,Other
+G0007756,google search,Search
+G0007757,google search,Search
+G0007758,Magazine,Magazine
+G0007759,google search,Search
+G0007765,google search,Search
+G0007767,Facebook,Social media
+G0007768,Magazine,Magazine
+G0007769,friend or family,Friend or family
+G0007776,Event,Event
+G0007780,Magazine,Magazine
+G0007783,Social media,Social media
+G0007786,google search,Search
+G0007789,Other,Other
+G0007799,Social media,Social media
+G0007801,Google,Search
+G0007806,Social media,Social media
+G0007807,Google,Search
+G0007808,friend or family,Friend or family
+G0007818,friend or family,Friend or family
+G0007820,friend or family,Friend or family
+G0007822,Other,Other
+G0007823,google search,Search
+G0007828,google search,Search
+G0007830,Magazine,Magazine
+G0007834,Facebook,Social media
+G0007837,friend or family,Friend or family
+G0007843,,Missing
+G0007846,Social media,Social media
+G0007852,Social media,Social media
+G0007855,Magazine,Magazine
+G0007860,Other,Other
+G0007862,,Missing
+G0007863,Event,Event
+G0007865,Our magazine,Magazine
+G0007871,,Missing
+G0007872,google search,Search
+G0007879,Social media,Social media
+G0007883,Other,Other
+G0007884,Our magazine,Magazine
+G0007890,Social media,Social media
+G0007892,Friend,Friend or family
+G0007894,Google,Search
+G0007908,,Missing
+G0007910,Social media,Social media
+G0007915,Google,Search
+G0007918,Social media,Social media
+G0007920,Other,Other
+G0007923,Event,Event
+G0007927,friend or family,Friend or family
+G0007929,Friend,Friend or family
+G0007937,Google,Search
+G0007942,Magazine,Magazine
+G0007949,Our magazine,Magazine
+G0007953,Social media,Social media
+G0007960,,Missing
+G0007963,Event,Event
+G0007970,Magazine,Magazine
+G0007974,Other,Other
+G0007976,Facebook,Social media
+G0007977,Magazine,Magazine
+G0007979,Facebook,Social media
+G0007980,,Missing
+G0007981,Other,Other
+G0007985,,Missing
+G0007986,Google,Search
+G0007992,Event,Event
+G0007993,Other,Other
+G0007995,friend or family,Friend or family
+G0008000,Google,Search
+G0008001,Other,Other
+G0008002,Google,Search
+G0008004,Google,Search
+G0008007,friend or family,Friend or family
+G0008011,,Missing
+G0008018,friend or family,Friend or family
+G0008022,Google,Search
+G0008023,Magazine,Magazine
+G0008024,Our magazine,Magazine
+G0008025,Event,Event
+G0008027,Magazine,Magazine
+G0008029,Friend,Friend or family
+G0008032,Google,Search
+G0008035,friend or family,Friend or family
+G0008037,Magazine,Magazine
+G0008039,Event,Event
+G0008047,friend or family,Friend or family
+G0008049,Google,Search
+G0008058,Social media,Social media
+G0008066,Other,Other
+G0008072,Friend,Friend or family
+G0008073,Google,Search
+G0008079,Magazine,Magazine
+G0008082,google search,Search
+G0008085,Our magazine,Magazine
+G0008091,Our magazine,Magazine
+G0008093,,Missing
+G0008096,Magazine,Magazine
+G0008097,Social media,Social media
+G0008100,Social media,Social media
+G0008106,Google,Search
+G0008109,Other,Other
+G0008110,Friend,Friend or family
+G0008112,Other,Other
+G0008117,Other,Other
+G0008122,Other,Other
+G0008123,Our magazine,Magazine
+G0008124,google search,Search
+G0008125,friend or family,Friend or family
+G0008126,Facebook,Social media
+G0008130,google search,Search
+G0008132,Event,Event
+G0008134,Facebook,Social media
+G0008135,friend or family,Friend or family
+G0008140,friend or family,Friend or family
+G0008141,Social media,Social media
+G0008148,Social media,Social media
+G0008164,Other,Other
+G0008165,,Missing
+G0008171,Magazine,Magazine
+G0008180,friend or family,Friend or family
+G0008182,google search,Search
+G0008185,google search,Search
+G0008186,Other,Other
+G0008190,Social media,Social media
+G0008194,Other,Other
+G0008200,Facebook,Social media
+G0008201,friend or family,Friend or family
+G0008203,Magazine,Magazine
+G0008205,Google,Search
+G0008209,,Missing
+G0008216,google search,Search
+G0008219,,Missing
+G0008221,Magazine,Magazine
+G0008222,google search,Search
+G0008223,Friend,Friend or family
+G0008228,Magazine,Magazine
+G0008235,Facebook,Social media
+G0008238,Other,Other
+G0008239,Event,Event
+G0008240,Facebook,Social media
+G0008241,google search,Search
+G0008243,Magazine,Magazine
+G0008246,Our magazine,Magazine
+G0008248,Social media,Social media
+G0008259,Google,Search
+G0008265,Google,Search
+G0008266,,Missing
+G0008269,google search,Search
+G0008270,Event,Event
+G0008276,Facebook,Social media
+G0008278,Google,Search
+G0008281,,Missing
+G0008285,friend or family,Friend or family
+G0008288,Google,Search
+G0008300,Magazine,Magazine
+G0008302,Google,Search
+G0008304,Google,Search
+G0008307,Social media,Social media
+G0008312,google search,Search
+G0008321,friend or family,Friend or family
+G0008322,Google,Search
+G0008324,Google,Search
+G0008328,Magazine,Magazine
+G0008330,Friend,Friend or family
+G0008333,friend or family,Friend or family
+G0008334,friend or family,Friend or family
+G0008336,Google,Search
+G0008337,friend or family,Friend or family
+G0008344,google search,Search
+G0008349,Friend,Friend or family
+G0008352,Event,Event
+G0008358,Social media,Social media
+G0008359,Magazine,Magazine
+G0008360,Magazine,Magazine
+G0008363,google search,Search
+G0008365,Magazine,Magazine
+G0008370,Other,Other
+G0008379,google search,Search
+G0008389,Google,Search
+G0008390,Google,Search
+G0008391,Magazine,Magazine
+G0008392,Social media,Social media
+G0008395,Google,Search
+G0008405,Facebook,Social media
+G0008406,Google,Search
+G0008411,Other,Other
+G0008415,Google,Search
+G0008417,Friend,Friend or family
+G0008427,Google,Search
+G0008429,Social media,Social media
+G0008431,Our magazine,Magazine
+G0008432,Magazine,Magazine
+G0008433,Google,Search
+G0008436,Magazine,Magazine
+G0008442,Our magazine,Magazine
+G0008443,Friend,Friend or family
+G0008444,Magazine,Magazine
+G0008447,Friend,Friend or family
+G0008453,Other,Other
+G0008455,friend or family,Friend or family
+G0008458,google search,Search
+G0008461,Magazine,Magazine
+G0008466,Friend,Friend or family
+G0008467,Our magazine,Magazine
+G0008474,Google,Search
+G0008476,Magazine,Magazine
+G0008483,Friend,Friend or family
+G0008492,Other,Other
+G0008497,google search,Search
+G0008498,Friend,Friend or family
+G0008500,Google,Search
+G0008505,Facebook,Social media
+G0008506,google search,Search
+G0008508,Friend,Friend or family
+G0008511,friend or family,Friend or family
+G0008512,Social media,Social media
+G0008518,Magazine,Magazine
+G0008519,google search,Search
+G0008527,,Missing
+G0008534,friend or family,Friend or family
+G0008536,Event,Event
+G0008539,friend or family,Friend or family
+G0008542,Event,Event
+G0008545,Magazine,Magazine
+G0008547,Social media,Social media
+G0008549,Event,Event
+G0008550,google search,Search
+G0008561,Social media,Social media
+G0008565,Magazine,Magazine
+G0008566,google search,Search
+G0008570,Google,Search
+G0008573,Friend,Friend or family
+G0008574,Google,Search
+G0008577,Magazine,Magazine
+G0008582,Google,Search
+G0008592,Social media,Social media
+G0008598,Other,Other
+G0008599,Google,Search
+G0008602,google search,Search
+G0008603,friend or family,Friend or family
+G0008612,google search,Search
+G0008614,Google,Search
+G0008620,Friend,Friend or family
+G0008621,Facebook,Social media
+G0008623,google search,Search
+G0008625,Our magazine,Magazine
+G0008629,Friend,Friend or family
+G0008632,google search,Search
+G0008635,Magazine,Magazine
+G0008643,google search,Search
+G0008647,Magazine,Magazine
+G0008648,Social media,Social media
+G0008650,Magazine,Magazine
+G0008655,Facebook,Social media
+G0008667,Our magazine,Magazine
+G0008671,Event,Event
+G0008681,Google,Search
+G0008685,Other,Other
+G0008687,google search,Search
+G0008688,Google,Search
+G0008691,Magazine,Magazine
+G0008692,Our magazine,Magazine
+G0008700,Other,Other
+G0008702,Facebook,Social media
+G0008703,Facebook,Social media
+G0008705,Social media,Social media
+G0008708,Google,Search
+G0008713,Magazine,Magazine
+G0008715,Other,Other
+G0008728,Social media,Social media
+G0008732,Other,Other
+G0008734,Our magazine,Magazine
+G0008736,Google,Search
+G0008740,Google,Search
+G0008747,Friend,Friend or family
+G0008748,Social media,Social media
+G0008749,Magazine,Magazine
+G0008752,,Missing
+G0008753,Magazine,Magazine
+G0008755,Magazine,Magazine
+G0008757,Google,Search
+G0008760,friend or family,Friend or family
+G0008762,Friend,Friend or family
+G0008763,Google,Search
+G0008767,Magazine,Magazine
+G0008774,Google,Search
+G0008776,google search,Search
+G0008784,,Missing
+G0008787,friend or family,Friend or family
+G0008788,Google,Search
+G0008790,Google,Search
+G0008799,Facebook,Social media
+G0008804,Facebook,Social media
+G0008806,Other,Other
+G0008810,Google,Search
+G0008812,Google,Search
+G0008814,Our magazine,Magazine
+G0008818,Google,Search
+G0008820,Friend,Friend or family
+G0008824,Other,Other
+G0008832,Friend,Friend or family
+G0008837,google search,Search
+G0008841,Google,Search
+G0008843,google search,Search
+G0008845,Facebook,Social media
+G0008846,Google,Search
+G0008847,Other,Other
+G0008849,Magazine,Magazine
+G0008854,Other,Other
+G0008855,Facebook,Social media
+G0008861,google search,Search
+G0008866,,Missing
+G0008867,Magazine,Magazine
+G0008868,,Missing
+G0008874,Google,Search
+G0008882,friend or family,Friend or family
+G0008889,Google,Search
+G0008893,Friend,Friend or family
+G0008895,Event,Event
+G0008898,Social media,Social media
+G0008903,Google,Search
+G0008904,Our magazine,Magazine
+G0008906,,Missing
+G0008913,Facebook,Social media
+G0008914,Magazine,Magazine
+G0008917,Magazine,Magazine
+G0008919,Event,Event
+G0008921,Other,Other
+G0008925,Magazine,Magazine
+G0008932,Our magazine,Magazine
+G0008936,Friend,Friend or family
+G0008939,Facebook,Social media
+G0008942,Friend,Friend or family
+G0008948,Google,Search
+G0008950,Friend,Friend or family
+G0008951,Google,Search
+G0008960,Other,Other
+G0008961,Social media,Social media
+G0008966,,Missing
+G0008968,google search,Search
+G0008976,friend or family,Friend or family
+G0008980,Magazine,Magazine
+G0008985,Facebook,Social media
+G0008986,friend or family,Friend or family
