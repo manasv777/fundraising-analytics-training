@@ -1,32 +1,37 @@
-# Fundraising analytics training
+# Fundraising analytics practice project
 
-This project gives BioKind Analytics a safe practice version of the work planned for The American Chestnut Foundation. Every donor and gift is synthetic. Do not treat the patterns as findings about the partner.
+BioKind Analytics will use this project to practice the analyses planned with The American Chestnut Foundation. All records are synthetic. The results are exercises, not findings about the partner.
 
 ## Start here
 
-1. Open this folder in VS Code.
-2. Follow **Lesson 1** in [LESSON_PLAN.md](LESSON_PLAN.md).
-3. Complete the Polars practice before starting a team assignment.
-4. Read your role in [TEAM_ASSIGNMENTS.md](TEAM_ASSIGNMENTS.md).
-5. Save all generated work under `outputs/`.
+1. Ask Manas for access to the private GitHub repository.
+2. Follow [Lesson 1](LESSON_PLAN.md#lesson-1-get-the-project-running) to check Git and Python, download the project, and run the setup check in VS Code.
+3. Complete [Lesson 2](LESSON_PLAN.md#lesson-2-learn-the-polars-basics) and [Lesson 3](LESSON_PLAN.md#lesson-3-join-tables-and-check-totals).
+4. Read your section of [Team assignments](TEAM_ASSIGNMENTS.md). Each starter script makes a first pass. Your assignment is to inspect and extend it.
+5. Write your conclusions in a tracked file under `reports/`. Files under `outputs/` are generated locally and ignored by Git.
 
-The CSV files in `data/raw/` are the coding source. The Excel file in `reference/` is only for browsing.
+Manas can use the [Coordinator guide](COORDINATOR_GUIDE.md) to run the lessons and review submissions.
 
 ## Project map
 
-- `data/raw/`: five related practice tables.
-- `src/fundraising_analytics/`: reusable loading, validation, metrics, and generation code.
-- `analyses/`: one guided workstream per team member.
-- `notebooks/`: first Polars lesson.
-- `tests/`: automatic checks.
-- `outputs/`: generated results.
-- `data/answers/`: coordinator-only answer key.
+| Location | Purpose |
+| --- | --- |
+| `data/raw/` | Five CSV tables used by Polars; 3,000 donors and 9,000 gift rows |
+| `DATA_DICTIONARY.md` | What each table and field means |
+| `notebooks/` | Hands-on Polars practice |
+| `analyses/` | A runnable starting script for each team member |
+| `src/fundraising_analytics/` | Shared loading, data checks, and calculations |
+| `tests/` | Automated checks for the code and practice data |
+| `reports/` | Written findings the team commits and reviews |
+| `outputs/` | Locally generated CSV and chart files; not committed |
+| `reference/` | Excel copy for browsing; the CSV files are the coding inputs |
 
-## Important definitions
+## Shared definitions
 
-- Net revenue = attributed revenue − outreach cost.
-- ROI = net revenue ÷ outreach cost.
-- Response rate = distinct responding donors ÷ recipients.
-- Direct attribution means the gift carries a solicitation code found in the solicitation table.
+- **Attributed revenue:** gifts whose solicitation code matches a campaign.
+- **Net revenue:** attributed revenue minus outreach cost.
+- **ROI:** net revenue divided by outreach cost. An ROI of `1.0` means one dollar of net revenue per dollar spent.
+- **Response rate:** distinct donors who gave with a campaign code divided by that campaign's recipient count. This is a practice definition; website reach and direct mail recipients may need different definitions with real data.
+- **Major gifts:** the exercises use $2,500 and $5,000 thresholds.
 
-These definitions are starting assumptions. Confirm them with the partner before analyzing real data.
+The synthetic data can be regenerated. If you accidentally change a CSV file, tell Manas before regenerating it so your data-quality observations can be reviewed.

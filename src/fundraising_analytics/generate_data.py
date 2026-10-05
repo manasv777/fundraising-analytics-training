@@ -161,46 +161,57 @@ def _gifts(
         for t in tiers
     ]
     codes_by_year_channel: dict[tuple[int, str], list[str]] = {}
+    send_date_by_code: dict[str, date] = {}
     for row in solicitations.iter_rows(named=True):
         if row["solicitation_code"] == "MAG2025TEST":
             continue
         codes_by_year_channel.setdefault((row["fiscal_year"], row["channel"]), []).append(
             row["solicitation_code"]
         )
+        send_date_by_code[row["solicitation_code"]] = row["send_date"]
     codes: list[str | None] = []
     dates: list[date] = []
     for year, channel in zip(years, channels, strict=True):
-        dates.append(_gift_date(rng, int(year), str(channel)))
-        if channel == "Unattributed" or rng.random() < 0.055:
+        if channel == "Unattributed":
+            dates.append(_gift_date(rng, int(year), str(channel)))
             codes.append(None)
-        elif rng.random() < 0.012:
-            codes.append(f"LEGACY{year}")
         else:
-            codes.append(str(rng.choice(codes_by_year_channel[(int(year), str(channel))])))
+            chosen_code = str(rng.choice(codes_by_year_channel[(int(year), str(channel))]))
+            send_date = send_date_by_code[chosen_code]
+            last_day = min(45, (date(int(year), 12, 31) - send_date).days)
+            dates.append(send_date + timedelta(days=int(rng.integers(1, last_day + 1))))
+            if rng.random() < 0.055:
+                codes.append(None)
+            elif rng.random() < 0.012:
+                codes.append(f"LEGACY{year}")
+            else:
+                codes.append(chosen_code)
+    gift_types = [
+        str(x)
+        for x in rng.choice(
+            ["One-time", "Recurring", "Tribute"], unique_n, p=[0.78, 0.17, 0.05]
+        )
+    ]
+    payment_methods = [
+        str(x)
+        for x in rng.choice(
+            ["Card", "Check", "ACH", "Stock"], unique_n, p=[0.51, 0.35, 0.11, 0.03]
+        )
+    ]
+    for index, channel in enumerate(channels):
+        if channel == "Website":
+            payment_methods[index] = str(rng.choice(["Card", "ACH"], p=[0.85, 0.15]))
     frame = pl.DataFrame(
         {
             "gift_id": [f"G{i:07d}" for i in range(1, unique_n + 1)],
             "donor_id": chosen_donors,
             "gift_date": dates,
             "gift_amount": amounts,
-            "payment_method": [
-                str(x)
-                for x in rng.choice(
-                    ["Card", "Check", "ACH", "Stock"], unique_n, p=[0.51, 0.35, 0.11, 0.03]
-                )
-            ],
-            "gift_type": [
-                str(x)
-                for x in rng.choice(
-                    ["One-time", "Recurring", "Tribute"], unique_n, p=[0.78, 0.17, 0.05]
-                )
-            ],
+            "payment_method": payment_methods,
+            "gift_type": gift_types,
             "solicitation_code": codes,
             "online": [str(x) == "Website" for x in channels],
-            "recurring_gift": [
-                str(x) == "Recurring"
-                for x in rng.choice(["One-time", "Recurring"], unique_n, p=[0.82, 0.18])
-            ],
+            "recurring_gift": [gift_type == "Recurring" for gift_type in gift_types],
             "soft_credit": rng.random(unique_n) < 0.025,
         }
     ).with_columns(pl.col("gift_date").cast(pl.Date))
@@ -291,6 +302,19 @@ def generate_all(seed: int = SEED, output_dir: Path = RAW_DATA_DIR) -> dict[str,
     donors = _donors(rng)
     solicitations = _solicitations()
     gifts = _gifts(rng, donors, solicitations)
+    first_gifts = gifts.group_by("donor_id").agg(
+        pl.col("gift_date").min().alias("first_gift_date")
+    )
+    donors = (
+        donors.join(first_gifts, on="donor_id", how="left")
+        .with_columns(
+            pl.when(pl.col("first_gift_date").is_not_null())
+            .then(pl.min_horizontal("join_date", "first_gift_date"))
+            .otherwise(pl.col("join_date"))
+            .alias("join_date")
+        )
+        .drop("first_gift_date")
+    )
     costs = _costs(rng, solicitations)
     website_sources = _website_sources(rng, gifts)
     tables = {

@@ -23,6 +23,7 @@ def test_upgrade_features_use_only_pre_cutoff_gifts(tmp_path) -> None:
     tables = generate_all(output_dir=tmp_path)
     features = build_upgrade_features(tables["gifts"], tables["donors"], date(2024, 12, 31))
     assert features["last_gift_date"].max() <= date(2024, 12, 31)
+    assert features["join_date"].max() <= date(2024, 12, 31)
     assert {"next_gift_2500_plus", "next_gift_5000_plus"} <= set(features.columns)
 
 

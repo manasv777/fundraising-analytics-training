@@ -27,3 +27,37 @@ def test_generation_has_major_gifts_channels_and_issues(tmp_path) -> None:
     )
     assert gifts["gift_id"].n_unique() < gifts.height
     assert gifts["solicitation_code"].null_count() > 0
+
+
+def test_gifts_follow_donor_join_and_matched_campaign_send_dates(tmp_path) -> None:
+    from fundraising_analytics.generate_data import generate_all
+
+    tables = generate_all(output_dir=tmp_path)
+    gifts = tables["gifts"].unique("gift_id")
+    joined = gifts.join(
+        tables["donors"].select("donor_id", "join_date"), on="donor_id", how="left"
+    ).join(
+        tables["solicitations"].select("solicitation_code", "send_date"),
+        on="solicitation_code",
+        how="left",
+    )
+    assert joined.filter(pl.col("gift_date") < pl.col("join_date")).height == 0
+    assert joined.filter(pl.col("gift_date") < pl.col("send_date")).height == 0
+
+
+def test_recurring_flag_matches_gift_type(tmp_path) -> None:
+    from fundraising_analytics.generate_data import generate_all
+
+    gifts = generate_all(output_dir=tmp_path)["gifts"]
+    inconsistent = gifts.filter(
+        (pl.col("gift_type") == "Recurring") != pl.col("recurring_gift")
+    )
+    assert inconsistent.height == 0
+
+
+def test_website_gifts_use_online_payment_methods(tmp_path) -> None:
+    from fundraising_analytics.generate_data import generate_all
+
+    gifts = generate_all(output_dir=tmp_path)["gifts"]
+    unexpected = gifts.filter(pl.col("online") & ~pl.col("payment_method").is_in(["Card", "ACH"]))
+    assert unexpected.height == 0

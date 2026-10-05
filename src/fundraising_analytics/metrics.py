@@ -61,6 +61,7 @@ def build_upgrade_features(
     gifts: pl.DataFrame, donors: pl.DataFrame, cutoff_date: date
 ) -> pl.DataFrame:
     gifts = deduplicate_gifts(gifts)
+    donors = donors.filter(pl.col("join_date") <= cutoff_date)
     pre = gifts.filter(pl.col("gift_date") <= cutoff_date)
     recent_start = cutoff_date - timedelta(days=365)
     summary = pre.group_by("donor_id").agg(

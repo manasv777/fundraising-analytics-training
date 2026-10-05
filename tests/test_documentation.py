@@ -39,3 +39,8 @@ def test_vscode_and_notebook_files_are_valid_json() -> None:
         content = json.loads((ROOT / relative).read_text())
         if relative.endswith(".ipynb"):
             assert all(cell.get("id") for cell in content["cells"])
+
+
+def test_vscode_uses_platform_discovered_environment() -> None:
+    settings = json.loads((ROOT / ".vscode/settings.json").read_text())
+    assert "python.defaultInterpreterPath" not in settings

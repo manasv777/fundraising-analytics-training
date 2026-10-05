@@ -24,9 +24,6 @@ FEATURE_COLUMNS = [
     "recent_12m_frequency",
     "solicitation_diversity",
     "recency_days",
-    "event_attendance_count",
-    "email_opt_in",
-    "volunteer",
 ]
 
 
@@ -40,13 +37,17 @@ def features_and_one_year_targets(cutoff: date, target_year: int) -> pl.DataFram
         .group_by("donor_id")
         .agg(pl.col("gift_amount").max().alias("target_year_max_gift"))
         .with_columns(
-            (pl.col("target_year_max_gift") >= 2_500).cast(pl.Int8).alias("next_gift_2500_plus"),
-            (pl.col("target_year_max_gift") >= 5_000).cast(pl.Int8).alias("next_gift_5000_plus"),
+            (pl.col("target_year_max_gift") >= 2_500)
+            .cast(pl.Int8)
+            .alias("following_year_2500_plus"),
+            (pl.col("target_year_max_gift") >= 5_000)
+            .cast(pl.Int8)
+            .alias("following_year_5000_plus"),
         )
     )
     return features.join(targets, on="donor_id", how="left").with_columns(
         pl.col("target_year_max_gift").fill_null(0),
-        pl.col("next_gift_2500_plus", "next_gift_5000_plus").fill_null(0),
+        pl.col("following_year_2500_plus", "following_year_5000_plus").fill_null(0),
         pl.col("recency_days").fill_null(9999),
     )
 
@@ -58,12 +59,11 @@ ranked = features.with_columns(
         (pl.col("prior_max_gift") >= 1000).cast(pl.Int8) * 3
         + (pl.col("recent_12m_frequency") >= 2).cast(pl.Int8) * 2
         + (pl.col("recent_12m_revenue") >= 1500).cast(pl.Int8) * 3
-        + (pl.col("event_attendance_count") >= 2).cast(pl.Int8)
     ).alias("upgrade_score")
 )
 
 evaluation_rows = []
-for threshold, target in ((2500, "next_gift_2500_plus"), (5000, "next_gift_5000_plus")):
+for threshold, target in ((2500, "following_year_2500_plus"), (5000, "following_year_5000_plus")):
     model = make_pipeline(
         StandardScaler(), LogisticRegression(class_weight="balanced", max_iter=1000)
     )
@@ -93,8 +93,8 @@ ranked = ranked.sort(
     "recent_12m_revenue",
     "recent_12m_frequency",
     "recency_days",
-    "next_gift_2500_plus",
-    "next_gift_5000_plus",
+    "following_year_2500_plus",
+    "following_year_5000_plus",
 )
 ranked.write_csv(out / "upgrade_prospects.csv")
 pl.DataFrame(evaluation_rows).write_csv(out / "model_evaluation.csv")

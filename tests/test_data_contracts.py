@@ -34,6 +34,17 @@ def test_validation_reports_expected_training_issues(
     checks = set(issues["check_name"].to_list())
     assert "duplicate_gift_id" in checks
     assert "unknown_solicitation_code" in checks
+    known_codes = set(generated_tables["solicitations"]["solicitation_code"].to_list())
+    unknown_rows = generated_tables["gifts"].filter(
+        pl.col("solicitation_code").is_not_null()
+        & ~pl.col("solicitation_code").is_in(list(known_codes))
+    ).height
+    assert (
+        issues.filter(pl.col("check_name") == "unknown_solicitation_code")[
+            "affected_rows"
+        ].item()
+        == unknown_rows
+    )
     assert (
         issues.filter(pl.col("check_name") == "cost_components_do_not_reconcile")[
             "affected_rows"

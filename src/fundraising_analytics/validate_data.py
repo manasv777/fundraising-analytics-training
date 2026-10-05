@@ -8,7 +8,10 @@ def validate_tables(tables: Mapping[str, pl.DataFrame]) -> pl.DataFrame:
     solicitations, costs = tables["solicitations"], tables["outreach_costs"]
     known_donors = set(donors["donor_id"].to_list())
     known_codes = set(solicitations["solicitation_code"].to_list())
-    gift_codes = {x for x in gifts["solicitation_code"].to_list() if x is not None}
+    unknown_code_rows = gifts.filter(
+        pl.col("solicitation_code").is_not_null()
+        & ~pl.col("solicitation_code").is_in(list(known_codes))
+    ).height
     cost_delta = costs.with_columns(
         (
             pl.col("creative_cost")
@@ -32,7 +35,7 @@ def validate_tables(tables: Mapping[str, pl.DataFrame]) -> pl.DataFrame:
             "Warning",
             "gifts",
             "unknown_solicitation_code",
-            len(gift_codes - known_codes),
+            unknown_code_rows,
             "Codes absent from solicitation table.",
         ),
         (

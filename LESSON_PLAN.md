@@ -1,68 +1,85 @@
-# Beginner lesson plan
+# Fundraising analytics: beginner lesson plan
 
-Complete Lessons 1–3 together. Lessons 4–5 happen in assigned workstreams and review sessions.
+Work through Lessons 1–3 together before splitting into assignments. Each lesson tells you what to do, what you should see, and how to check your work. The data is synthetic.
 
-## Lesson 1: Set up your tools
+## Lesson 1: Get the project running
 
-**Objective:** Prepare Python, Git, and the project environment.  
-**Estimated time:** 45–75 minutes.  
-**You are finished when:** the setup check lists five data tables and tells you to continue to Lesson 2.
+**Goal:** Check Git and Python, download the private project, set up Polars, and run one successful command.
 
-### What the tools do
+**Time:** About 60–90 minutes.
 
-- **Python** runs the analysis code.
-- **Polars** is the Python package used to work with tables.
-- **Git** records versions and helps teammates work separately.
-- **A terminal** is a text window for giving the computer commands.
-- **A virtual environment** keeps this project's packages separate from other projects.
+**Starting point:** You already have VS Code.
 
-### Check what is already installed
+### Step 1: Confirm access
 
-In VS Code, select **Terminal → New Terminal**. Type one command at a time and press Enter.
+Open [the private GitHub repository](https://github.com/manasv777/fundraising-analytics-training) in a browser while signed into GitHub. You should see its file list. If GitHub shows **404**, tell Manas your GitHub username so he can grant access.
 
-Windows setup:
+### Step 2: Check Git and Python
 
-```powershell
-python --version
+In VS Code, choose **Terminal → New Terminal**. Type one line at a time and press Enter.
+
+#### Windows setup
+
+Use **Command Prompt** for these lessons. If the terminal says `PowerShell`, click the arrow beside `+` in the terminal panel, choose **Select Default Profile → Command Prompt**, and open a new terminal.
+
+```bat
 git --version
+python --version
 ```
 
-macOS setup:
+If `python` is not recognized, try `py -3 --version`. Use whichever command reports Python 3.11 or newer when you create the environment in Step 5.
+
+#### macOS setup
 
 ```bash
-python3 --version
 git --version
+python3 --version
 ```
 
-If Python reports 3.11 or newer and Git reports a version, continue. A “command not found” message means that tool needs installation.
+**Expected result:** Git prints a version, and Python prints `Python 3.11` or newer. Your exact patch numbers may differ.
 
-### Install Python
+### Step 3: Install a missing tool
 
-Windows: download Python from https://www.python.org/downloads/. During installation, select **Add Python to PATH**. Close and reopen VS Code, then run `python --version`.
+#### Install Git (if needed)
 
-macOS: download the macOS installer from https://www.python.org/downloads/ or install with Homebrew using `brew install python`. Close and reopen the terminal, then run `python3 --version`.
+Download [Git for Windows](https://git-scm.com/download/win) or [Git for macOS](https://git-scm.com/download/mac). On macOS, `git --version` may offer to install Apple's Command Line Tools; that also works.
 
-### Install Git
+#### Install Python (if needed)
 
-Windows: download Git from https://git-scm.com/download/win and accept the standard options. Reopen VS Code and run `git --version`.
+Download Python 3.11 or newer from [python.org](https://www.python.org/downloads/). On Windows, enable the installer option that adds Python to your path if it appears. On macOS, the Python installer or `brew install python` works.
 
-macOS: run `git --version`. macOS may offer to install Command Line Tools. Accept that prompt, or download Git from https://git-scm.com/download/mac.
+Close and reopen VS Code after installation. Repeat Step 2. Ask Manas for help if neither command prints a version.
 
-### Create the virtual environment
+### Step 4: Download and open the project
 
-Make sure the terminal is inside the `fundraising-analytics-training` folder.
+In VS Code, choose **File → Open Folder** and select a parent folder where you keep school projects (for example, `Documents`). Choose **Terminal → New Terminal**. The terminal prompt should show that parent folder; this is where the project will be downloaded. Run these lines one at a time:
 
-Windows setup:
+```bash
+git clone https://github.com/manasv777/fundraising-analytics-training.git
+cd fundraising-analytics-training
+```
 
-```powershell
+GitHub may ask you to sign in through a browser or credential manager. Follow that prompt. If access fails, return to Step 1. If `git clone` reports that `fundraising-analytics-training` already exists, do not delete it; ask Manas whether to use that copy.
+
+In VS Code, choose **File → Open Folder** and open the new `fundraising-analytics-training` folder. Choose **Terminal → New Terminal** again. The prompt should end with `fundraising-analytics-training`. In the Explorer, you should see `README.md`, `data`, `analyses`, and `LESSON_PLAN.md`.
+
+### Step 5: Create a virtual environment
+
+A virtual environment called `.venv` keeps this project's packages together. Create it once on your computer. GitHub does not store it.
+
+#### Windows setup: Command Prompt
+
+Use `python` in the first command if it worked in Step 2. If only `py -3` worked, replace `python` in the first command with `py -3`.
+
+```bat
 python -m venv .venv
-.venv\Scripts\Activate.ps1
+.venv\Scripts\activate.bat
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 python -m pip install -e .
 ```
 
-macOS setup:
+#### macOS setup: Terminal
 
 ```bash
 python3 -m venv .venv
@@ -72,87 +89,149 @@ python -m pip install -r requirements.txt
 python -m pip install -e .
 ```
 
-In VS Code, press Command/Ctrl+Shift+P, choose **Python: Select Interpreter**, and select the interpreter containing `.venv`.
+**Expected result:** After activation, the terminal prompt begins with `(.venv)`. Installation may take several minutes and should end without an error.
 
-### Run the first check
+### Step 6: Select `.venv` in VS Code
+
+If VS Code offers the recommended **Python**, **Pylance**, **Jupyter**, and **Ruff** extensions, accept. Otherwise, open **Extensions** on the left and install **Python** and **Jupyter** by Microsoft.
+
+Press **Ctrl+Shift+P** on Windows or **Command+Shift+P** on macOS. Type **Python: Select Interpreter**. Choose the interpreter whose path contains this project's `.venv`. The selected interpreter appears in VS Code's status bar.
+
+### Step 7: Run the setup check
+
+Open a new terminal and activate `.venv` again if its name is absent from the prompt. Then run:
 
 ```bash
 python -m fundraising_analytics.setup_check
 ```
 
-**Expected result:** Python and Polars versions appear, Git says `found`, and the five tables show 3,000 donors, 9,000 gift rows, 29 solicitations, 29 cost rows, and about 2,400 website responses. The final line tells you to continue to Lesson 2.
+**Expected result:** Python and Polars versions appear; Git says `found`; the tables show `donors: 3,000`, `gifts: 9,000`, `solicitations: 29`, `outreach_costs: 29`, and `website_sources: 2,474`. The final line says to continue to Lesson 2.
+
+**Checkpoint for Manas:** Show the five counts and the final setup message before starting an assignment.
 
 ### Common fixes
 
-- `python` is not found on macOS: use `python3` for environment creation.
-- PowerShell blocks activation: open Command Prompt and use `.venv\Scripts\activate.bat`, or ask the coordinator for help changing the execution policy.
-- Polars is missing: confirm `(.venv)` appears at the left of the terminal, then repeat the two `pip install` commands.
-- VS Code uses the wrong Python: repeat **Python: Select Interpreter** and select `.venv`.
-- A CSV is missing: run `python -m fundraising_analytics.generate_data`.
+| What you see | What to do |
+| --- | --- |
+| `python` not found on Windows | Try `py -3 --version`. If that works, use `py -3 -m venv .venv` for the first environment command. |
+| `python` not found on macOS | Use `python3` to create `.venv`; after activation, use `python`. |
+| PowerShell blocks `.venv\Scripts\Activate.ps1` | Use the **Command Prompt** terminal profile and run `.venv\Scripts\activate.bat`. |
+| `No module named polars` or `No module named fundraising_analytics` | Activate `.venv`, repeat the two installation commands, and reselect the VS Code interpreter. |
+| A CSV file is missing | From the project folder run `python -m fundraising_analytics.generate_data`, then repeat the check. Tell Manas if a file had been edited first. |
+| The terminal cannot find `requirements.txt` | Open the project folder in VS Code, then create a new terminal there. |
+| GitHub login or clone fails | Confirm you can see the private repository in your browser and ask Manas to check collaborator access. |
 
-**Checkpoint:** show the coordinator the final setup-check line before continuing.
+## Lesson 2: Learn the Polars basics
 
-## Lesson 2: Your first Polars workflow
+**Goal:** Load a CSV, inspect it, filter rows, group results, and save a summary.
 
-**Objective:** Load, inspect, filter, summarize, and save a table.  
-**Estimated time:** 60–90 minutes.
+**Time:** About 60–90 minutes.
 
-Open `notebooks/00_polars_first_steps.ipynb` and select the `.venv` kernel. Run cells in order.
+**Start when:** Lesson 1's setup check succeeds.
 
-The basic pattern is:
+### Step 1: Open the notebook
+
+Open `notebooks/00_polars_first_steps.ipynb` in VS Code. At the top right, click **Select Kernel** and choose the `.venv` Python interpreter. Run cells in order with their play buttons.
+
+**Expected result:** The first data cell shows five donor rows. Another reports `(3000, 11)`: 3,000 rows and 11 columns. If you see a package error, revisit Lesson 1, Steps 5–6.
+
+### Step 2: Name each operation
+
+- `pl.read_csv(...)` opens a CSV as a Polars table.
+- `.head()` previews its first rows.
+- `.schema` shows each column's data type.
+- `.filter(...)` keeps rows that meet a rule.
+- `.group_by(...).agg(...)` summarizes groups.
+- `.write_csv(...)` saves a new CSV.
+
+### Step 3: Make one new summary
+
+In a new notebook code cell, type:
 
 ```python
+from pathlib import Path
 import polars as pl
-donors = pl.read_csv("data/raw/donors.csv", try_parse_dates=True)
-print(donors.shape)
-print(donors.schema)
-active = donors.filter(pl.col("membership_status") == "Active")
-summary = active.group_by("state_group").agg(pl.len().alias("active_donors"))
-summary.write_csv("outputs/lesson_2_active_donors.csv")
+
+root = Path.cwd().parent if Path.cwd().name == "notebooks" else Path.cwd()
+donors = pl.read_csv(root / "data/raw/donors.csv", try_parse_dates=True)
+counts = donors.group_by("membership_status").agg(pl.len().alias("donors"))
+print(counts.sort("membership_status"))
+
+output_dir = root / "outputs"
+output_dir.mkdir(exist_ok=True)
+counts.write_csv(output_dir / "lesson_2_membership_counts.csv")
 ```
 
-Practice questions:
+**Expected result:** Three membership groups appear. You should also see `outputs/lesson_2_membership_counts.csv` in VS Code's Explorer. Group order can vary unless you sort.
 
-1. How many active, lapsed, and prospective donors are present?
-2. Which acquisition source has the most donors?
-3. How many donors opted into email?
-4. Save one answer as a CSV under `outputs/`.
+### Practice and checkpoint
 
-**Completion check:** you can explain what `filter`, `group_by`, `agg`, and `write_csv` do in your own words.
+1. Count donors by `acquisition_source`.
+2. Count how many donors have `email_opt_in == True`.
+3. Save the acquisition summary in `outputs/lesson_2_acquisition_counts.csv`.
+4. Explain what one row of each output represents.
 
-## Lesson 3: Join tables without changing the money
+**Checkpoint for Manas:** Show the saved acquisition CSV and explain `filter`, `group_by`, `agg`, and `write_csv` in plain language.
 
-**Objective:** Understand grain, keys, joins, and reconciliation.  
-**Estimated time:** 75–105 minutes.
+## Lesson 3: Join tables and check totals
 
-- Grain means what one row represents. One donor row is a person; one gift row is a transaction.
-- A primary key identifies a row. `donor_id` is the donor key; `gift_id` is the gift key.
-- A foreign key connects tables. `gifts.donor_id` connects gifts to donors.
+**Goal:** Connect gifts to donors and prove the join did not duplicate revenue.
 
-Before and after every join, record row count, unique gift count, and gift total. A donor can have many gifts, so joining donor attributes onto gifts is safe only when donor IDs are unique.
+**Time:** About 75–105 minutes.
 
-Run:
+**Start when:** You can complete Lesson 2's practice.
 
-```bash
-python analyses/member_1_data_quality.py
+### Step 1: Learn the keys
+
+One row in `donors.csv` is one person. One unique `gift_id` in `gifts.csv` is one transaction. The dataset also has a few duplicate gift rows for practice. `gifts.donor_id` points to `donors.donor_id`; `gifts.solicitation_code` points to `solicitations.solicitation_code` when known. See [DATA_DICTIONARY.md](DATA_DICTIONARY.md) for field definitions.
+
+### Step 2: Compare totals before and after a join
+
+In a new notebook cell, type:
+
+```python
+from fundraising_analytics.load_data import load_tables
+from fundraising_analytics.metrics import deduplicate_gifts
+
+tables = load_tables()
+gifts = deduplicate_gifts(tables["gifts"])
+before_rows = gifts.height
+before_revenue = gifts["gift_amount"].sum()
+
+joined = gifts.join(tables["donors"], on="donor_id", how="left", validate="m:1")
+print("Rows before / after:", before_rows, joined.height)
+print("Revenue before / after:", before_revenue, joined["gift_amount"].sum())
 ```
 
-Inspect `outputs/member_1/data_quality_issues.csv`. Decide which findings are expected training issues and which would stop a real analysis.
+**Expected result:** Both row counts match; both revenue totals match. `validate="m:1"` asks Polars to confirm that each gift matches at most one donor row.
 
-**Completion check:** your gift total before and after a donor join is identical.
+### Step 3: Investigate practice issues
 
-## Lesson 4: Team analysis sprint
+Run `python analyses/member_1_data_quality.py` in the VS Code terminal. Open `outputs/member_1/data_quality_issues.csv`. Inspect `affected_rows`, then find matching raw records. Do not delete raw rows. Record what you found in your report.
 
-**Objective:** Complete one workstream using shared definitions.  
-**Estimated time:** 3–6 hours depending on the assignment.
+**Checkpoint for Manas:** Show the before/after totals and identify at least one issue to discuss before using real data.
 
-Read [TEAM_ASSIGNMENTS.md](TEAM_ASSIGNMENTS.md). First run the provided script. Then make a copy on your Git branch and improve it. Write three findings, two limitations, and one question for the partner.
+## Lesson 4: Complete your assigned analysis
+
+**Goal:** Improve your starter script and write a reviewable explanation.
+
+**Time:** About 3–6 hours.
+
+1. Read your section of [TEAM_ASSIGNMENTS.md](TEAM_ASSIGNMENTS.md).
+2. Create your branch using [the coordinator guide](COORDINATOR_GUIDE.md#branch-and-submission-steps).
+3. Run your starter script and inspect the output files.
+4. Add the missing analyses listed in your assignment. Keep calculations in code so they can be rerun.
+5. Copy `reports/FINDINGS_TEMPLATE.md` to `reports/member_N.md`, replacing `N` with your member number. Fill every section using your own results.
+6. Run `python -m pytest -q` and your script again. Ask Manas for a review if either command fails.
+
+**Expected result:** A script that runs, local outputs, and a report with findings, checks, limits, and a partner question.
 
 ## Lesson 5: Review and integrate
 
-**Objective:** Combine the five workstreams without conflicting definitions.  
-**Estimated time:** 90 minutes as a team.
+**Goal:** Combine the five analyses using consistent definitions.
 
-Each member demonstrates the command used, reconciles totals, explains one choice, and names one limitation. The coordinator checks metric definitions, cutoff dates, attribution rules, and output filenames before dashboard assembly.
+**Time:** One 90-minute meeting.
 
-Never copy a synthetic conclusion into a partner deliverable. When real data arrives, map fields, rerun validation, confirm solicitation meanings, load actual costs and recipients, and recompute everything.
+Each analyst shows the command they ran, the outputs they inspected, one reconciliation, one finding, and one limitation. Manas checks that all files use the same deduplication, ROI definitions, cutoff dates, and attribution rules. The team then uses campaign ROI, monthly trends, prospect rankings, and large-gift summaries to plan the dashboard.
+
+Before switching to partner data, inventory its columns, confirm cost and recipient data, ask what each solicitation code means, and agree on attribution windows. Recompute the analyses from real data before reporting conclusions.
