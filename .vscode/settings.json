@@ -1,1 +1,10 @@
-{"python.testing.pytestEnabled":true,"python.testing.pytestArgs":["tests"],"[python]":{"editor.defaultFormatter":"charliermarsh.ruff"}}
+{
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "python-envs.defaultEnvManager": "ms-python.python:venv"
+}
